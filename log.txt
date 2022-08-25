@@ -1,0 +1,1079 @@
+2022-07-29 03:42:59.157459 - Запуск. Пользователь:Администратор
+2022-07-29 03:48:35.056422 - Запуск БД. Пользователь: Администратор
+04:19:49 - main - ERROR - __init__: 35 - Exception occurred
+Traceback (most recent call last):
+  File "E:\QT_python_DispatcherDatabase\main.py", line 33, in __init__
+    res = self.connection.cursor().execute("SELECT name FROM dispatcher WHERE active='да'").fetchall()
+sqlite3.OperationalError: no such table: dispatcher
+04:20:05 - main - INFO - main_application: 96 - Запуск БД. Пользователь: Администратор
+04:21:22 - main - ERROR - __init__: 36 - Exception occurred
+Traceback (most recent call last):
+  File "E:\QT_python_DispatcherDatabase\main.py", line 33, in __init__
+    res = self.connection.cursor().execute("SELECT name FROM dispatcher WHERE active='да'").fetchall()
+sqlite3.OperationalError: no such table: dispatcher
+04:23:34 - main - ERROR - __init__: 36 - Exception occurred
+Traceback (most recent call last):
+  File "E:\QT_python_DispatcherDatabase\main.py", line 33, in __init__
+    res = self.connection.cursor().execute("SELECT name FROM dispatcher WHERE active='да'").fetchall()
+sqlite3.OperationalError: no such table: dispatcher
+2022-07-29 04:27:12,388 - main - ERROR - __init__: 36 - Exception occurred
+Traceback (most recent call last):
+  File "E:\QT_python_DispatcherDatabase\main.py", line 33, in __init__
+    res = self.connection.cursor().execute("SELECT name FROM dispatcher WHERE active='да'").fetchall()
+sqlite3.OperationalError: no such table: dispatcher
+2022-07-29 04:28:12,514 - main - INFO - main_application: 96 - Запуск БД. Пользователь: Администратор
+2022-07-29 04:30:48,084 - main - WARNING - __init__: 55 - Файл базы данных не найден
+2022-07-29 04:32:53,418 - main - INFO - main_application: 91 - Запуск БД. Пользователь: Администратор
+2022-07-29 04:50:26,096 - main - INFO - main_application: 94 - Запуск БД. Пользователь: Администратор
+2022-07-29 04:51:56,649 - main - INFO - main_application: 94 - Запуск БД. Пользователь: Администратор
+2022-07-29 04:52:23,722 - main - INFO - main_application: 94 - Запуск БД. Пользователь: Беляева А.А.
+2022-07-29 04:55:35,672 - main - INFO - main_application: 93 - Запуск БД. Пользователь: Новик О.А.
+2022-07-29 04:56:49,608 - main - INFO - main_application: 93 - Запуск БД. Пользователь: Иванова Л.П.
+2022-08-02 01:07:01,207 - main - INFO - main_application: 94 - Запуск БД. Пользователь: Иванова Л.П.
+2022-08-02 01:15:56,195 - main - INFO - main_application: 94 - Запуск БД. Пользователь: 
+2022-08-02 03:44:59,824 - main - INFO - main_application: 110 - Запуск БД. Пользователь: Фриауф Т.В.
+2022-08-03 02:31:59,030 - main - INFO - main_application: 110 - Запуск БД. Пользователь: Фриауф Т.В.
+2022-08-03 02:46:16,737 - main - INFO - main_application: 110 - Запуск БД. Пользователь: Фриауф Т.В.
+2022-08-03 02:50:57,133 - main - INFO - main_application: 110 - Запуск БД. Пользователь: Фриауф Т.В.
+2022-08-03 02:52:12,786 - main - INFO - main_application: 110 - Запуск БД. Пользователь: Фриауф Т.В.
+2022-08-03 02:52:52,172 - main - INFO - main_application: 110 - Запуск БД. Пользователь: Мазурова Е.А.
+2022-08-03 02:58:42,172 - main - INFO - main_application: 110 - Запуск БД. Пользователь: Фриауф Т.В.
+2022-08-03 04:23:48,922 - main - INFO - main_application: 110 - Запуск БД. Пользователь: Фриауф Т.В.
+2022-08-03 04:31:13,245 - main - INFO - main_application: 110 - Запуск БД. Пользователь: Беляева А.А.
+2022-08-04 03:22:19,692 - main - INFO - main_application: 110 - Запуск БД. Пользователь: Беляева А.А.
+2022-08-04 04:33:43,809 - main - INFO - main_application: 110 - Запуск БД. Пользователь: Беляева А.А.
+2022-08-04 17:52:27,745 - main - INFO - main_application: 110 - Запуск БД. Пользователь: Фриауф Т.В.
+2022-08-05 01:36:47,701 - main - INFO - main_application: 110 - Запуск БД. Пользователь: Фриауф Т.В.
+2022-08-05 02:09:21,716 - main - INFO - main_application: 123 - Запуск БД. Пользователь: Фриауф Т.В.
+2022-08-05 02:10:59,549 - main - INFO - main_application: 123 - Запуск БД. Пользователь: Фриауф Т.В.
+2022-08-05 02:17:01,628 - main - INFO - main_application: 123 - Запуск БД. Пользователь: Фриауф Т.В.
+2022-08-05 02:40:41,343 - main - INFO - main_application: 126 - Запуск БД. Пользователь: Фриауф Т.В.
+2022-08-05 02:41:15,576 - main - INFO - main_application: 126 - Запуск БД. Пользователь: Фриауф Т.В.
+2022-08-05 02:48:44,845 - main - INFO - main_application: 141 - Запуск БД. Пользователь: Фриауф Т.В.
+2022-08-05 02:50:58,037 - main - INFO - main_application: 143 - Запуск БД. Пользователь: Фриауф Т.В.
+2022-08-05 02:51:16,851 - main - INFO - main_application: 143 - Запуск БД. Пользователь: Фриауф Т.В.
+2022-08-05 02:51:31,907 - main - INFO - main_application: 143 - Запуск БД. Пользователь: Фриауф Т.В.
+2022-08-05 02:51:46,908 - main - INFO - main_application: 143 - Запуск БД. Пользователь: Фриауф Т.В.
+2022-08-05 02:52:17,151 - main - INFO - main_application: 143 - Запуск БД. Пользователь: Фриауф Т.В.
+2022-08-05 02:53:49,519 - main - INFO - main_application: 145 - Запуск БД. Пользователь: Фриауф Т.В.
+2022-08-05 02:55:24,904 - main - INFO - main_application: 144 - Запуск БД. Пользователь: Фриауф Т.В.
+2022-08-05 02:57:36,697 - main - INFO - main_application: 140 - Запуск БД. Пользователь: Фриауф Т.В.
+2022-08-05 02:59:37,053 - main - INFO - main_application: 141 - Запуск БД. Пользователь: Фриауф Т.В.
+2022-08-05 03:00:05,471 - main - INFO - main_application: 142 - Запуск БД. Пользователь: Фриауф Т.В.
+2022-08-05 03:00:53,697 - main - INFO - main_application: 144 - Запуск БД. Пользователь: Фриауф Т.В.
+2022-08-05 03:01:14,823 - main - INFO - main_application: 144 - Запуск БД. Пользователь: Фриауф Т.В.
+2022-08-05 03:03:18,529 - main - INFO - main_application: 144 - Запуск БД. Пользователь: Фриауф Т.В.
+2022-08-05 03:05:50,505 - main - INFO - main_application: 148 - Запуск БД. Пользователь: Фриауф Т.В.
+2022-08-05 03:06:05,780 - main - INFO - main_application: 148 - Запуск БД. Пользователь: Фриауф Т.В.
+2022-08-05 03:26:21,622 - main - INFO - main_application: 148 - Запуск БД. Пользователь: Фриауф Т.В.
+2022-08-05 03:36:04,211 - main - INFO - main_application: 143 - Запуск БД. Пользователь: Фриауф Т.В.
+2022-08-05 03:39:18,338 - main - INFO - main_application: 144 - Запуск БД. Пользователь: Фриауф Т.В.
+2022-08-05 03:40:35,642 - main - INFO - main_application: 144 - Запуск БД. Пользователь: Фриауф Т.В.
+2022-08-05 03:45:18,053 - main - INFO - main_application: 145 - Запуск БД. Пользователь: Фриауф Т.В.
+2022-08-05 04:02:23,171 - main - INFO - main_application: 146 - Запуск БД. Пользователь: Фриауф Т.В.
+2022-08-05 04:03:24,375 - main - INFO - main_application: 146 - Запуск БД. Пользователь: Фриауф Т.В.
+2022-08-05 04:03:34,119 - main - INFO - main_application: 146 - Запуск БД. Пользователь: Фриауф Т.В.
+2022-08-05 04:04:34,817 - main - INFO - main_application: 147 - Запуск БД. Пользователь: Фриауф Т.В.
+2022-08-05 04:08:35,258 - main - INFO - main_application: 153 - Запуск БД. Пользователь: Мазурова Е.А.
+2022-08-05 04:09:49,324 - main - INFO - main_application: 154 - Запуск БД. Пользователь: Фриауф Т.В.
+2022-08-05 04:13:00,985 - main - INFO - main_application: 157 - Запуск БД. Пользователь: Фриауф Т.В.
+2022-08-05 04:13:31,511 - main - INFO - main_application: 157 - Запуск БД. Пользователь: Фриауф Т.В.
+2022-08-05 04:14:32,742 - main - INFO - main_application: 157 - Запуск БД. Пользователь: Фриауф Т.В.
+2022-08-05 04:15:54,293 - main - INFO - main_application: 162 - Запуск БД. Пользователь: Фриауф Т.В.
+2022-08-05 04:20:34,330 - main - INFO - main_application: 162 - Запуск БД. Пользователь: Фриауф Т.В.
+2022-08-05 04:21:17,032 - main - INFO - main_application: 163 - Запуск БД. Пользователь: Фриауф Т.В.
+2022-08-05 04:22:14,032 - main - INFO - main_application: 163 - Запуск БД. Пользователь: Фриауф Т.В.
+2022-08-05 04:31:16,561 - main - INFO - main_application: 164 - Запуск БД. Пользователь: Фриауф Т.В.
+2022-08-05 04:34:46,854 - main - INFO - main_application: 165 - Запуск БД. Пользователь: Фриауф Т.В.
+2022-08-05 04:36:36,116 - main - INFO - main_application: 165 - Запуск БД. Пользователь: Фриауф Т.В.
+2022-08-05 04:37:15,089 - main - INFO - main_application: 165 - Запуск БД. Пользователь: Фриауф Т.В.
+2022-08-05 04:48:51,259 - main - INFO - main_application: 165 - Запуск БД. Пользователь: Фриауф Т.В.
+2022-08-05 05:03:03,046 - main - INFO - main_application: 166 - Запуск БД. Пользователь: Фриауф Т.В.
+2022-08-05 05:03:19,150 - main - INFO - main_application: 165 - Запуск БД. Пользователь: Фриауф Т.В.
+2022-08-09 01:21:29,680 - main - INFO - main_application: 166 - Запуск БД. Пользователь: Фриауф Т.В.
+2022-08-09 01:58:24,050 - main - INFO - main_application: 166 - Запуск БД. Пользователь: Фриауф Т.В.
+2022-08-09 01:59:27,670 - main - INFO - main_application: 166 - Запуск БД. Пользователь: Фриауф Т.В.
+2022-08-09 01:59:55,077 - main - INFO - main_application: 167 - Запуск БД. Пользователь: Фриауф Т.В.
+2022-08-09 02:00:22,882 - main - INFO - main_application: 167 - Запуск БД. Пользователь: Фриауф Т.В.
+2022-08-09 02:00:36,901 - main - INFO - main_application: 167 - Запуск БД. Пользователь: Фриауф Т.В.
+2022-08-09 02:00:45,283 - main - INFO - main_application: 167 - Запуск БД. Пользователь: Фриауф Т.В.
+2022-08-09 02:36:56,617 - main - INFO - main_application: 177 - Запуск БД. Пользователь: Фриауф Т.В.
+2022-08-09 02:37:37,354 - main - INFO - main_application: 176 - Запуск БД. Пользователь: Иванова Л.П.
+2022-08-09 03:10:03,752 - main - ERROR - fill_list: 53 - Exception occurred
+Traceback (most recent call last):
+  File "E:\QT_python_DispatcherDatabase\main.py", line 51, in fill_list
+    result_list = connection.cursor().execute("SELECT name FROM address BY ORDER building").fetchall()
+sqlite3.OperationalError: near "building": syntax error
+2022-08-09 03:12:09,742 - main - ERROR - fill_list: 53 - Exception occurred
+Traceback (most recent call last):
+  File "E:\QT_python_DispatcherDatabase\main.py", line 49, in fill_list
+    result_list = connection.cursor().execute("SELECT name FROM address BY ORDER building").fetchall()
+sqlite3.OperationalError: near "building": syntax error
+2022-08-09 03:12:09,746 - main - INFO - main_application: 196 - Запуск БД. Пользователь: Иванова Л.П.
+2022-08-09 03:16:01,042 - main - ERROR - fill_list: 53 - Exception occurred
+Traceback (most recent call last):
+  File "E:\QT_python_DispatcherDatabase\main.py", line 49, in fill_list
+    result_list = connection.cursor().execute("SELECT name FROM address BY ORDER building").fetchall()
+sqlite3.OperationalError: near "building": syntax error
+2022-08-09 03:16:25,267 - main - ERROR - fill_list: 53 - Exception occurred
+Traceback (most recent call last):
+  File "E:\QT_python_DispatcherDatabase\main.py", line 49, in fill_list
+    result_list = connection.cursor().execute("SELECT building FROM address BY ORDER building").fetchall()
+sqlite3.OperationalError: near "building": syntax error
+2022-08-09 03:16:40,787 - main - INFO - main_application: 197 - Запуск БД. Пользователь: Фриауф Т.В.
+2022-08-09 03:17:41,213 - main - INFO - main_application: 197 - Запуск БД. Пользователь: Фриауф Т.В.
+2022-08-09 03:18:25,069 - main - INFO - main_application: 197 - Запуск БД. Пользователь: Фриауф Т.В.
+2022-08-09 03:19:54,369 - main - INFO - main_application: 197 - Запуск БД. Пользователь: Фриауф Т.В.
+2022-08-09 03:21:44,007 - main - INFO - main_application: 197 - Запуск БД. Пользователь: Фриауф Т.В.
+2022-08-09 03:23:39,415 - main - INFO - main_application: 200 - Запуск БД. Пользователь: Фриауф Т.В.
+2022-08-09 03:24:17,267 - main - INFO - main_application: 201 - Запуск БД. Пользователь: Фриауф Т.В.
+2022-08-09 03:29:12,247 - main - INFO - main_application: 202 - Запуск БД. Пользователь: Фриауф Т.В.
+2022-08-09 03:29:26,472 - main - INFO - main_application: 202 - Запуск БД. Пользователь: Фриауф Т.В.
+2022-08-09 03:32:32,518 - main - INFO - main_application: 205 - Запуск БД. Пользователь: Фриауф Т.В.
+2022-08-09 03:34:11,397 - main - INFO - main_application: 205 - Запуск БД. Пользователь: Фриауф Т.В.
+2022-08-09 03:34:28,798 - main - INFO - main_application: 206 - Запуск БД. Пользователь: Фриауф Т.В.
+2022-08-09 03:34:55,778 - main - INFO - main_application: 204 - Запуск БД. Пользователь: Фриауф Т.В.
+2022-08-09 03:49:29,581 - main - INFO - main_application: 205 - Запуск БД. Пользователь: Фриауф Т.В.
+2022-08-09 03:49:43,465 - main - INFO - main_application: 205 - Запуск БД. Пользователь: Фриауф Т.В.
+2022-08-09 03:50:23,482 - main - INFO - main_application: 205 - Запуск БД. Пользователь: Фриауф Т.В.
+2022-08-09 03:50:38,429 - main - INFO - main_application: 205 - Запуск БД. Пользователь: Фриауф Т.В.
+2022-08-09 04:05:50,891 - main - INFO - main_application: 206 - Запуск БД. Пользователь: Фриауф Т.В.
+2022-08-09 04:06:39,954 - main - INFO - main_application: 206 - Запуск БД. Пользователь: Фриауф Т.В.
+2022-08-09 04:07:01,319 - main - INFO - main_application: 206 - Запуск БД. Пользователь: Фриауф Т.В.
+2022-08-09 04:09:50,938 - main - INFO - main_application: 206 - Запуск БД. Пользователь: Фриауф Т.В.
+2022-08-09 04:10:00,631 - main - INFO - main_application: 206 - Запуск БД. Пользователь: Фриауф Т.В.
+2022-08-09 04:11:09,768 - main - INFO - main_application: 206 - Запуск БД. Пользователь: Фриауф Т.В.
+2022-08-09 04:11:18,566 - main - INFO - main_application: 206 - Запуск БД. Пользователь: Фриауф Т.В.
+2022-08-09 04:11:54,741 - main - INFO - main_application: 206 - Запуск БД. Пользователь: Фриауф Т.В.
+2022-08-09 04:12:38,079 - main - INFO - main_application: 206 - Запуск БД. Пользователь: Фриауф Т.В.
+2022-08-09 04:12:45,257 - main - INFO - main_application: 206 - Запуск БД. Пользователь: Фриауф Т.В.
+2022-08-09 04:13:56,471 - main - INFO - main_application: 206 - Запуск БД. Пользователь: Фриауф Т.В.
+2022-08-09 04:14:31,319 - main - INFO - main_application: 206 - Запуск БД. Пользователь: Фриауф Т.В.
+2022-08-09 04:14:48,784 - main - INFO - main_application: 206 - Запуск БД. Пользователь: Фриауф Т.В.
+2022-08-09 04:15:17,025 - main - INFO - main_application: 206 - Запуск БД. Пользователь: Фриауф Т.В.
+2022-08-09 04:15:44,131 - main - INFO - main_application: 207 - Запуск БД. Пользователь: Фриауф Т.В.
+2022-08-09 04:15:55,892 - main - INFO - main_application: 207 - Запуск БД. Пользователь: Фриауф Т.В.
+2022-08-09 04:16:24,128 - main - INFO - main_application: 207 - Запуск БД. Пользователь: Фриауф Т.В.
+2022-08-09 04:16:40,976 - main - INFO - main_application: 207 - Запуск БД. Пользователь: Фриауф Т.В.
+2022-08-09 04:22:58,432 - main - INFO - main_application: 209 - Запуск БД. Пользователь: Фриауф Т.В.
+2022-08-09 23:34:54,303 - main - INFO - main_application: 210 - Запуск БД. Пользователь: Фриауф Т.В.
+2022-08-09 23:35:12,536 - main - INFO - main_application: 210 - Запуск БД. Пользователь: Фриауф Т.В.
+2022-08-09 23:35:41,956 - main - INFO - main_application: 210 - Запуск БД. Пользователь: Фриауф Т.В.
+2022-08-09 23:40:59,842 - main - INFO - main_application: 210 - Запуск БД. Пользователь: Фриауф Т.В.
+2022-08-09 23:46:54,995 - main - INFO - main_application: 210 - Запуск БД. Пользователь: Фриауф Т.В.
+2022-08-09 23:49:41,566 - main - INFO - main_application: 209 - Запуск БД. Пользователь: Фриауф Т.В.
+2022-08-09 23:50:07,505 - main - INFO - main_application: 209 - Запуск БД. Пользователь: Фриауф Т.В.
+2022-08-09 23:50:44,345 - main - INFO - main_application: 209 - Запуск БД. Пользователь: Фриауф Т.В.
+2022-08-10 01:31:58,052 - main - INFO - main_application: 209 - Запуск БД. Пользователь: Фриауф Т.В.
+2022-08-10 01:34:16,657 - main - INFO - main_application: 209 - Запуск БД. Пользователь: Фриауф Т.В.
+2022-08-10 01:34:46,097 - main - INFO - main_application: 209 - Запуск БД. Пользователь: Фриауф Т.В.
+2022-08-10 01:39:45,937 - main - INFO - main_application: 208 - Запуск БД. Пользователь: Фриауф Т.В.
+2022-08-10 01:48:48,321 - main - INFO - main_application: 207 - Запуск БД. Пользователь: Иванова Л.П.
+2022-08-10 01:51:19,683 - main - INFO - main_application: 205 - Запуск БД. Пользователь: Фриауф Т.В.
+2022-08-10 01:57:52,923 - main - INFO - main_application: 213 - Запуск БД. Пользователь: Фриауф Т.В.
+2022-08-10 01:59:28,898 - main - INFO - main_application: 213 - Запуск БД. Пользователь: Мазурова Е.А.
+2022-08-10 02:06:45,601 - main - INFO - main_application: 224 - Запуск БД. Пользователь: Мазурова Е.А.
+2022-08-10 02:27:39,638 - main - INFO - main_application: 236 - Запуск БД. Пользователь: Новик О.А.
+2022-08-10 02:32:00,770 - main - INFO - main_application: 235 - Запуск БД. Пользователь: Новик О.А.
+2022-08-10 02:35:50,518 - main - INFO - main_application: 235 - Запуск БД. Пользователь: Мазурова Е.А.
+2022-08-10 02:37:25,574 - main - INFO - main_application: 235 - Запуск БД. Пользователь: Мазурова Е.А.
+2022-08-10 02:38:04,391 - main - INFO - main_application: 235 - Запуск БД. Пользователь: Мазурова Е.А.
+2022-08-10 02:39:16,613 - main - INFO - main_application: 236 - Запуск БД. Пользователь: Мазурова Е.А.
+2022-08-10 02:42:00,654 - main - INFO - main_application: 239 - Запуск БД. Пользователь: Мазурова Е.А.
+2022-08-10 02:44:16,398 - main - INFO - main_application: 240 - Запуск БД. Пользователь: Мазурова Е.А.
+2022-08-10 02:46:43,286 - main - INFO - main_application: 238 - Запуск БД. Пользователь: Беляева А.А.
+2022-08-10 02:51:43,824 - main - INFO - main_application: 241 - Запуск БД. Пользователь: Беляева А.А.
+2022-08-10 02:53:26,838 - main - INFO - main_application: 243 - Запуск БД. Пользователь: Иванова Л.П.
+2022-08-10 02:55:29,512 - main - INFO - main_application: 243 - Запуск БД. Пользователь: Беляева А.А.
+2022-08-10 03:02:08,216 - main - INFO - main_application: 248 - Запуск БД. Пользователь: Беляева А.А.
+2022-08-10 03:07:20,938 - main - INFO - main_application: 249 - Запуск БД. Пользователь: Мазурова Е.А.
+2022-08-10 03:07:58,528 - main - INFO - main_application: 249 - Запуск БД. Пользователь: Мазурова Е.А.
+2022-08-10 03:11:07,962 - main - INFO - main_application: 248 - Запуск БД. Пользователь: Мазурова Е.А.
+2022-08-10 03:11:46,904 - main - INFO - main_application: 244 - Запуск БД. Пользователь: Мазурова Е.А.
+2022-08-10 03:12:34,836 - main - INFO - main_application: 244 - Запуск БД. Пользователь: Мазурова Е.А.
+2022-08-10 03:16:47,211 - main - INFO - main_application: 246 - Запуск БД. Пользователь: Мазурова Е.А.
+2022-08-10 03:17:12,591 - main - INFO - main_application: 245 - Запуск БД. Пользователь: Новик О.А.
+2022-08-10 03:17:30,496 - main - INFO - main_application: 245 - Запуск БД. Пользователь: Иванова Л.П.
+2022-08-10 03:20:35,083 - main - INFO - main_application: 246 - Запуск БД. Пользователь: Новик О.А.
+2022-08-10 03:21:36,593 - main - INFO - main_application: 246 - Запуск БД. Пользователь: Мазурова Е.А.
+2022-08-10 03:21:51,990 - main - INFO - main_application: 246 - Запуск БД. Пользователь: Мазурова Е.А.
+2022-08-10 03:23:50,330 - main - INFO - main_application: 246 - Запуск БД. Пользователь: Мазурова Е.А.
+2022-08-10 03:24:18,153 - main - INFO - main_application: 246 - Запуск БД. Пользователь: Мазурова Е.А.
+2022-08-10 03:24:58,761 - main - INFO - main_application: 246 - Запуск БД. Пользователь: Мазурова Е.А.
+2022-08-10 03:25:49,819 - main - INFO - main_application: 246 - Запуск БД. Пользователь: Мазурова Е.А.
+2022-08-10 03:26:07,467 - main - INFO - main_application: 246 - Запуск БД. Пользователь: Фриауф Т.В.
+2022-08-10 03:26:30,533 - main - INFO - main_application: 246 - Запуск БД. Пользователь: Фриауф Т.В.
+2022-08-10 03:26:44,598 - main - INFO - main_application: 246 - Запуск БД. Пользователь: Фриауф Т.В.
+2022-08-10 03:27:31,957 - main - INFO - main_application: 245 - Запуск БД. Пользователь: Фриауф Т.В.
+2022-08-10 03:28:25,406 - main - INFO - main_application: 245 - Запуск БД. Пользователь: Фриауф Т.В.
+2022-08-10 03:30:01,127 - main - INFO - main_application: 245 - Запуск БД. Пользователь: Фриауф Т.В.
+2022-08-10 03:30:41,316 - main - INFO - main_application: 245 - Запуск БД. Пользователь: Фриауф Т.В.
+2022-08-10 03:31:23,285 - main - INFO - main_application: 246 - Запуск БД. Пользователь: Новик О.А.
+2022-08-10 03:36:49,022 - main - INFO - main_application: 249 - Запуск БД. Пользователь: Фриауф Т.В.
+2022-08-10 03:40:35,309 - main - INFO - main_application: 255 - Запуск БД. Пользователь: Фриауф Т.В.
+2022-08-10 03:43:11,787 - main - INFO - main_application: 256 - Запуск БД. Пользователь: Фриауф Т.В.
+2022-08-10 03:47:16,107 - main - INFO - main_application: 256 - Запуск БД. Пользователь: Фриауф Т.В.
+2022-08-10 03:50:04,984 - main - INFO - main_application: 259 - Запуск БД. Пользователь: Фриауф Т.В.
+2022-08-10 03:50:31,783 - main - INFO - main_application: 259 - Запуск БД. Пользователь: Фриауф Т.В.
+2022-08-10 03:50:49,189 - main - INFO - main_application: 259 - Запуск БД. Пользователь: Фриауф Т.В.
+2022-08-10 03:51:28,427 - main - INFO - main_application: 259 - Запуск БД. Пользователь: Фриауф Т.В.
+2022-08-10 03:53:21,630 - main - INFO - main_application: 261 - Запуск БД. Пользователь: Фриауф Т.В.
+2022-08-10 03:53:29,268 - main - INFO - main_application: 261 - Запуск БД. Пользователь: Фриауф Т.В.
+2022-08-10 04:25:57,733 - main - INFO - main_application: 281 - Запуск БД. Пользователь: Фриауф Т.В.
+2022-08-10 04:26:45,870 - main - INFO - main_application: 282 - Запуск БД. Пользователь: Фриауф Т.В.
+2022-08-10 04:28:00,734 - main - INFO - main_application: 282 - Запуск БД. Пользователь: Фриауф Т.В.
+2022-08-10 04:28:40,322 - main - INFO - main_application: 282 - Запуск БД. Пользователь: Фриауф Т.В.
+2022-08-10 04:29:08,485 - main - INFO - main_application: 281 - Запуск БД. Пользователь: Фриауф Т.В.
+2022-08-10 04:30:50,390 - main - INFO - main_application: 283 - Запуск БД. Пользователь: Фриауф Т.В.
+2022-08-10 04:32:19,186 - main - INFO - main_application: 282 - Запуск БД. Пользователь: Фриауф Т.В.
+2022-08-10 04:35:58,556 - main - INFO - main_application: 282 - Запуск БД. Пользователь: Мазурова Е.А.
+2022-08-10 04:36:39,847 - main - INFO - main_application: 282 - Запуск БД. Пользователь: Фриауф Т.В.
+2022-08-10 04:40:39,190 - main - INFO - main_application: 284 - Запуск БД. Пользователь: Фриауф Т.В.
+2022-08-10 04:41:12,238 - main - INFO - main_application: 284 - Запуск БД. Пользователь: Фриауф Т.В.
+2022-08-10 04:44:58,633 - main - INFO - main_application: 282 - Запуск БД. Пользователь: Иванова Л.П.
+2022-08-10 04:55:14,111 - main - INFO - main_application: 282 - Запуск БД. Пользователь: Фриауф Т.В.
+2022-08-10 05:04:00,173 - main - INFO - main_application: 282 - Запуск БД. Пользователь: Фриауф Т.В.
+2022-08-10 05:17:29,919 - main - INFO - main_application: 283 - Запуск БД. Пользователь: Фриауф Т.В.
+2022-08-10 05:18:30,436 - main - INFO - main_application: 283 - Запуск БД. Пользователь: Фриауф Т.В.
+2022-08-10 05:18:58,309 - main - INFO - main_application: 283 - Запуск БД. Пользователь: Фриауф Т.В.
+2022-08-10 05:20:16,183 - main - INFO - main_application: 283 - Запуск БД. Пользователь: Фриауф Т.В.
+2022-08-10 05:21:08,972 - main - INFO - main_application: 283 - Запуск БД. Пользователь: Фриауф Т.В.
+2022-08-10 05:21:36,854 - main - INFO - main_application: 283 - Запуск БД. Пользователь: Фриауф Т.В.
+2022-08-10 12:34:00,467 - main - INFO - main_application: 283 - Запуск БД. Пользователь: Мазурова Е.А.
+2022-08-11 03:07:58,762 - main - INFO - main_application: 293 - Запуск БД. Пользователь: Мазурова Е.А.
+2022-08-11 03:21:48,832 - main - INFO - main_application: 305 - Запуск БД. Пользователь: Фриауф Т.В.
+2022-08-11 03:23:05,523 - main - INFO - main_application: 305 - Запуск БД. Пользователь: Беляева А.А.
+2022-08-11 03:25:11,781 - main - INFO - main_application: 306 - Запуск БД. Пользователь: Иванова Л.П.
+2022-08-11 03:25:32,919 - main - INFO - main_application: 305 - Запуск БД. Пользователь: Новик О.А.
+2022-08-11 03:29:57,969 - main - INFO - main_application: 314 - Запуск БД. Пользователь: Иванова Л.П.
+2022-08-11 03:30:55,639 - main - INFO - main_application: 315 - Запуск БД. Пользователь: Беляева А.А.
+2022-08-11 03:35:17,768 - main - INFO - main_application: 315 - Запуск БД. Пользователь: Иванова Л.П.
+2022-08-11 04:04:57,591 - main - INFO - main_application: 339 - Запуск БД. Пользователь: Мазурова Е.А.
+2022-08-11 04:07:29,386 - main - INFO - main_application: 342 - Запуск БД. Пользователь: Беляева А.А.
+2022-08-11 04:11:50,565 - main - INFO - main_application: 343 - Запуск БД. Пользователь: Иванова Л.П.
+2022-08-11 04:16:41,754 - main - INFO - main_application: 343 - Запуск БД. Пользователь: Фриауф Т.В.
+2022-08-11 04:18:10,734 - main - INFO - main_application: 343 - Запуск БД. Пользователь: Фриауф Т.В.
+2022-08-11 04:22:20,180 - main - INFO - main_application: 354 - Запуск БД. Пользователь: Фриауф Т.В.
+2022-08-11 04:32:24,067 - main - INFO - main_application: 354 - Запуск БД. Пользователь: Беляева А.А.
+2022-08-11 04:37:44,239 - main - INFO - main_application: 354 - Запуск БД. Пользователь: Фриауф Т.В.
+2022-08-11 04:47:02,216 - main - INFO - main_application: 354 - Запуск БД. Пользователь: Беляева А.А.
+2022-08-11 04:58:05,571 - main - INFO - main_application: 360 - Запуск БД. Пользователь: Фриауф Т.В.
+2022-08-11 05:00:59,310 - main - INFO - main_application: 360 - Запуск БД. Пользователь: Фриауф Т.В.
+2022-08-11 05:03:33,640 - main - INFO - main_application: 362 - Запуск БД. Пользователь: Фриауф Т.В.
+2022-08-11 05:04:15,853 - main - INFO - main_application: 358 - Запуск БД. Пользователь: Фриауф Т.В.
+2022-08-12 01:00:58,297 - main - INFO - main_application: 359 - Запуск БД. Пользователь: Беляева А.А.
+2022-08-12 01:11:52,816 - main - INFO - main_application: 359 - Запуск БД. Пользователь: Фриауф Т.В.
+2022-08-12 01:15:49,648 - main - INFO - main_application: 359 - Запуск БД. Пользователь: Фриауф Т.В.
+2022-08-12 01:18:08,375 - main - INFO - main_application: 359 - Запуск БД. Пользователь: Фриауф Т.В.
+2022-08-12 01:18:37,541 - main - INFO - main_application: 359 - Запуск БД. Пользователь: Фриауф Т.В.
+2022-08-12 01:18:46,930 - main - INFO - main_application: 359 - Запуск БД. Пользователь: Фриауф Т.В.
+2022-08-12 02:19:01,946 - main - INFO - main_application: 382 - Запуск БД. Пользователь: Фриауф Т.В.
+2022-08-12 02:34:42,464 - main - INFO - main_application: 383 - Запуск БД. Пользователь: Фриауф Т.В.
+2022-08-12 02:36:07,042 - main - INFO - main_application: 384 - Запуск БД. Пользователь: Фриауф Т.В.
+2022-08-12 02:37:06,471 - main - INFO - main_application: 385 - Запуск БД. Пользователь: Фриауф Т.В.
+2022-08-12 02:38:06,331 - main - INFO - main_application: 384 - Запуск БД. Пользователь: Фриауф Т.В.
+2022-08-12 02:38:53,893 - main - INFO - main_application: 384 - Запуск БД. Пользователь: Фриауф Т.В.
+2022-08-12 02:43:34,827 - main - INFO - main_application: 384 - Запуск БД. Пользователь: Фриауф Т.В.
+2022-08-12 02:43:58,603 - main - INFO - main_application: 384 - Запуск БД. Пользователь: Фриауф Т.В.
+2022-08-12 02:44:54,183 - main - INFO - main_application: 384 - Запуск БД. Пользователь: Фриауф Т.В.
+2022-08-12 02:52:57,485 - main - INFO - main_application: 385 - Запуск БД. Пользователь: Фриауф Т.В.
+2022-08-12 03:31:25,487 - main - INFO - main_application: 417 - Запуск БД. Пользователь: Фриауф Т.В.
+2022-08-12 03:31:30,704 - main - WARNING - message_loging: 381 - Фриауф Т.В.: Адрес sdfsfsf не существует!
+
+2022-08-12 03:31:35,542 - main - WARNING - message_loging: 381 - Фриауф Т.В.: Адрес 23432423 не существует!
+
+2022-08-12 03:33:04,097 - main - INFO - main_application: 415 - Запуск БД. Пользователь: Фриауф Т.В.
+2022-08-12 03:33:42,140 - main - INFO - main_application: 415 - Запуск БД. Пользователь: Фриауф Т.В.
+2022-08-12 03:34:35,684 - main - INFO - main_application: 411 - Запуск БД. Пользователь: Фриауф Т.В.
+2022-08-12 03:34:40,460 - main - WARNING - message_loging: 381 - Фриауф Т.В.: Адрес rewrwerw не существует!
+
+2022-08-12 03:34:43,383 - main - WARNING - message_loging: 381 - Фриауф Т.В.: Адрес Аммермана ул. д. 15/103432423 не существует!
+
+2022-08-12 03:34:57,635 - main - WARNING - message_loging: 381 - Фриауф Т.В.: Адрес 45435 не существует!
+
+2022-08-12 03:46:08,886 - main - INFO - main_application: 416 - Запуск БД. Пользователь: Фриауф Т.В.
+2022-08-12 03:48:04,888 - main - INFO - main_application: 417 - Запуск БД. Пользователь: Фриауф Т.В.
+2022-08-12 03:48:17,661 - main - INFO - main_application: 417 - Запуск БД. Пользователь: Фриауф Т.В.
+2022-08-12 03:48:52,599 - main - INFO - main_application: 416 - Запуск БД. Пользователь: Фриауф Т.В.
+2022-08-12 03:48:53,418 - main - WARNING - message_loging: 386 - Фриауф Т.В.: Имя заявителя отсутствует или слишком короткое!
+2022-08-12 03:49:29,566 - main - INFO - main_application: 416 - Запуск БД. Пользователь: Фриауф Т.В.
+2022-08-12 03:49:30,663 - main - WARNING - message_loging: 386 - Фриауф Т.В.: Имя заявителя отсутствует или слишком короткое!
+2022-08-12 03:57:14,049 - main - INFO - main_application: 425 - Запуск БД. Пользователь: Фриауф Т.В.
+2022-08-12 03:57:26,377 - main - WARNING - message_loging: 395 - Фриауф Т.В.: Телефон заявителя должен содержать только числа!
+2022-08-12 04:01:05,043 - main - INFO - main_application: 423 - Запуск БД. Пользователь: Фриауф Т.В.
+2022-08-12 04:08:05,248 - main - INFO - main_application: 439 - Запуск БД. Пользователь: Фриауф Т.В.
+2022-08-12 04:08:16,549 - main - WARNING - message_loging: 409 - Фриауф Т.В.: Адрес 23423 не существует!
+2022-08-12 04:08:28,577 - main - WARNING - message_loging: 409 - Фриауф Т.В.: Имя заявителя отсутствует или слишком короткое!
+2022-08-12 04:08:49,668 - main - WARNING - message_loging: 409 - Фриауф Т.В.: Телефон заявителя должен содержать только числа!
+2022-08-12 04:10:18,789 - main - INFO - main_application: 440 - Запуск БД. Пользователь: Фриауф Т.В.
+2022-08-12 04:10:29,485 - main - WARNING - message_loging: 410 - Фриауф Т.В.: Телефон заявителя должен содержать только числа!
+2022-08-12 04:12:00,450 - main - INFO - main_application: 441 - Запуск БД. Пользователь: Фриауф Т.В.
+2022-08-12 04:12:06,570 - main - WARNING - message_loging: 411 - Фриауф Т.В.: Телефон заявителя должен содержать только числа!
+2022-08-12 04:13:58,990 - main - INFO - main_application: 441 - Запуск БД. Пользователь: Фриауф Т.В.
+2022-08-12 04:14:09,076 - main - WARNING - message_loging: 411 - Фриауф Т.В.: Длина номера телефона не может быть меньше 7 цифр или больше 11
+2022-08-12 04:19:19,794 - main - INFO - main_application: 441 - Запуск БД. Пользователь: Фриауф Т.В.
+2022-08-12 04:19:24,651 - main - WARNING - message_loging: 411 - Фриауф Т.В.: Телефон заявителя должен содержать только числа!
+2022-08-12 04:19:42,793 - main - WARNING - message_loging: 411 - Фриауф Т.В.: Сообщение заявка отсутствует или слишком короткое!
+2022-08-12 04:20:54,309 - main - INFO - main_application: 442 - Запуск БД. Пользователь: Фриауф Т.В.
+2022-08-12 04:21:07,469 - main - WARNING - message_loging: 412 - Фриауф Т.В.: Сообщение заявка отсутствует или слишком короткое!
+2022-08-12 04:21:45,382 - main - INFO - main_application: 442 - Запуск БД. Пользователь: Фриауф Т.В.
+2022-08-12 04:23:55,729 - main - INFO - main_application: 446 - Запуск БД. Пользователь: Фриауф Т.В.
+2022-08-12 04:27:51,340 - main - INFO - main_application: 452 - Запуск БД. Пользователь: Фриауф Т.В.
+2022-08-12 04:30:57,231 - main - INFO - main_application: 450 - Запуск БД. Пользователь: Фриауф Т.В.
+2022-08-12 04:32:32,016 - main - INFO - main_application: 450 - Запуск БД. Пользователь: Фриауф Т.В.
+2022-08-12 04:33:23,660 - main - INFO - main_application: 450 - Запуск БД. Пользователь: Фриауф Т.В.
+2022-08-12 04:33:56,558 - main - INFO - main_application: 450 - Запуск БД. Пользователь: Фриауф Т.В.
+2022-08-12 04:54:26,600 - main - INFO - main_application: 456 - Запуск БД. Пользователь: Фриауф Т.В.
+2022-08-12 04:55:31,827 - main - INFO - message_loging: 424 - Фриауф Т.В.: Новая запись в БД. 04:54, Иванов Семен, Тестовое сообще
+2022-08-12 04:59:57,768 - main - INFO - main_application: 457 - Запуск БД. Пользователь: Фриауф Т.В.
+2022-08-12 05:00:06,326 - main - INFO - main_application: 457 - Запуск БД. Пользователь: Беляева А.А.
+2022-08-12 05:01:05,757 - main - INFO - message_loging: 425 - Беляева А.А.: Новая запись в БД. 05:00, Иванов Иван, Пропала шляпа, 
+2022-08-12 05:15:56,921 - main - INFO - main_application: 474 - Запуск БД. Пользователь: Фриауф Т.В.
+2022-08-12 05:16:45,477 - main - INFO - message_loging: 442 - Фриауф Т.В.: Новая запись в БД. 05:15, Иванов Иван, Пропала шляпа. ...
+2022-08-12 05:19:02,884 - main - INFO - main_application: 473 - Запуск БД. Пользователь: Фриауф Т.В.
+2022-08-12 05:19:48,528 - main - INFO - message_loging: 441 - Фриауф Т.В.: Новая запись в БД. 05:19, Иванов иван, Сообщение 111...
+2022-08-12 05:22:17,460 - main - INFO - main_application: 476 - Запуск БД. Пользователь: Фриауф Т.В.
+2022-08-12 05:22:55,634 - main - INFO - message_loging: 444 - Фриауф Т.В.: Новая запись в БД. 05:22, Иванов Иван, Сообщние 1...
+2022-08-12 05:23:29,069 - main - INFO - main_application: 476 - Запуск БД. Пользователь: Фриауф Т.В.
+2022-08-12 05:24:04,257 - main - ERROR - add_data_input: 378 - Exception occurred
+Traceback (most recent call last):
+  File "E:\QT_python_DispatcherDatabase\main.py", line 361, in add_data_input
+    connection.cursor().execute(
+sqlite3.OperationalError: incomplete input
+2022-08-12 05:24:04,257 - main - INFO - message_loging: 444 - Фриауф Т.В.: Новая запись в БД. 05:23, Иванов Иван, Сообщние 111...
+2022-08-13 05:23:54,168 - main - INFO - main_application: 475 - Запуск БД. Пользователь: Фриауф Т.В.
+2022-08-13 05:24:39,994 - main - INFO - message_loging: 443 - Фриауф Т.В.: Новая запись в БД. 05:23, Bdfyjd Иван, Обращение для т...
+2022-08-13 05:26:17,929 - main - INFO - main_application: 474 - Запуск БД. Пользователь: Мазурова Е.А.
+2022-08-13 05:27:01,227 - main - ERROR - add_data_input: 376 - Exception occurred
+Traceback (most recent call last):
+  File "E:\QT_python_DispatcherDatabase\main.py", line 359, in add_data_input
+    connection.cursor().execute(
+sqlite3.OperationalError: table application has 14 columns but 13 values were supplied
+2022-08-13 05:27:01,227 - main - INFO - message_loging: 442 - Мазурова Е.А.: Новая запись в БД. 05:26, Иван, Сообшение ...
+2022-08-13 05:33:16,285 - main - INFO - main_application: 476 - Запуск БД. Пользователь: Беляева А.А.
+2022-08-13 05:34:15,268 - main - INFO - message_loging: 444 - Беляева А.А.: Новая запись в БД. 05:33, Иванов Иван, Обращние-сообще...
+2022-08-13 05:35:52,634 - main - INFO - main_application: 474 - Запуск БД. Пользователь: Фриауф Т.В.
+2022-08-13 05:37:19,709 - main - INFO - main_application: 474 - Запуск БД. Пользователь: Фриауф Т.В.
+2022-08-15 18:14:31,265 - main - INFO - main_application: 480 - Запуск БД. Пользователь: Иванова Л.П.
+2022-08-15 18:16:36,609 - main - INFO - main_application: 480 - Запуск БД. Пользователь: Иванова Л.П.
+2022-08-15 18:19:54,053 - main - INFO - main_application: 480 - Запуск БД. Пользователь: Иванова Л.П.
+2022-08-15 18:21:25,610 - main - INFO - main_application: 481 - Запуск БД. Пользователь: Новик О.А.
+2022-08-15 18:25:09,287 - main - INFO - main_application: 482 - Запуск БД. Пользователь: Мазурова Е.А.
+2022-08-15 18:27:00,139 - main - INFO - main_application: 483 - Запуск БД. Пользователь: Иванова Л.П.
+2022-08-15 18:28:56,967 - main - INFO - message_loging: 451 - Иванова Л.П.: Новая запись в БД. 18:27, Безфамильный Некто, Тестовое обраще...
+2022-08-15 18:34:00,723 - main - INFO - main_application: 484 - Запуск БД. Пользователь: Фриауф Т.В.
+2022-08-15 18:34:42,542 - main - INFO - main_application: 484 - Запуск БД. Пользователь: Мазурова Е.А.
+2022-08-15 18:35:47,389 - main - INFO - main_application: 485 - Запуск БД. Пользователь: Иванова Л.П.
+2022-08-15 18:36:06,895 - main - INFO - main_application: 485 - Запуск БД. Пользователь: Новик О.А.
+2022-08-15 18:36:34,847 - main - INFO - main_application: 485 - Запуск БД. Пользователь: Иванова Л.П.
+2022-08-15 18:39:32,921 - main - INFO - main_application: 485 - Запуск БД. Пользователь: Фриауф Т.В.
+2022-08-15 18:39:59,554 - main - INFO - main_application: 486 - Запуск БД. Пользователь: Фриауф Т.В.
+2022-08-15 18:46:11,003 - main - INFO - main_application: 489 - Запуск БД. Пользователь: Мазурова Е.А.
+2022-08-15 18:50:27,546 - main - INFO - main_application: 496 - Запуск БД. Пользователь: Мазурова Е.А.
+2022-08-15 18:51:08,590 - main - INFO - main_application: 497 - Запуск БД. Пользователь: Мазурова Е.А.
+2022-08-15 18:55:35,770 - main - INFO - main_application: 499 - Запуск БД. Пользователь: Мазурова Е.А.
+2022-08-15 18:58:29,690 - main - INFO - main_application: 499 - Запуск БД. Пользователь: Фриауф Т.В.
+2022-08-15 19:02:51,837 - main - INFO - main_application: 499 - Запуск БД. Пользователь: Фриауф Т.В.
+2022-08-15 19:05:19,377 - main - INFO - main_application: 499 - Запуск БД. Пользователь: Фриауф Т.В.
+2022-08-15 19:05:44,548 - main - INFO - main_application: 499 - Запуск БД. Пользователь: Фриауф Т.В.
+2022-08-15 19:54:38,499 - main - INFO - main_application: 500 - Запуск БД. Пользователь: Фриауф Т.В.
+2022-08-15 19:55:42,091 - main - INFO - main_application: 500 - Запуск БД. Пользователь: Фриауф Т.В.
+2022-08-15 19:57:41,769 - main - INFO - main_application: 501 - Запуск БД. Пользователь: Фриауф Т.В.
+2022-08-15 19:58:46,929 - main - INFO - main_application: 501 - Запуск БД. Пользователь: Фриауф Т.В.
+2022-08-15 19:59:18,516 - main - INFO - main_application: 501 - Запуск БД. Пользователь: Фриауф Т.В.
+2022-08-15 20:00:20,440 - main - INFO - main_application: 501 - Запуск БД. Пользователь: Фриауф Т.В.
+2022-08-15 20:00:51,865 - main - INFO - main_application: 501 - Запуск БД. Пользователь: Фриауф Т.В.
+2022-08-15 20:04:16,214 - main - INFO - main_application: 500 - Запуск БД. Пользователь: Фриауф Т.В.
+2022-08-15 20:05:14,628 - main - INFO - main_application: 501 - Запуск БД. Пользователь: Фриауф Т.В.
+2022-08-15 20:06:56,419 - main - INFO - main_application: 501 - Запуск БД. Пользователь: Фриауф Т.В.
+2022-08-15 20:12:58,385 - main - INFO - main_application: 502 - Запуск БД. Пользователь: Фриауф Т.В.
+2022-08-15 20:27:15,076 - main - INFO - main_application: 503 - Запуск БД. Пользователь: Фриауф Т.В.
+2022-08-15 20:28:44,502 - main - INFO - main_application: 503 - Запуск БД. Пользователь: Фриауф Т.В.
+2022-08-15 20:33:40,731 - main - INFO - main_application: 503 - Запуск БД. Пользователь: Фриауф Т.В.
+2022-08-15 20:33:56,926 - main - INFO - main_application: 503 - Запуск БД. Пользователь: Фриауф Т.В.
+2022-08-15 20:34:34,873 - main - INFO - main_application: 504 - Запуск БД. Пользователь: Фриауф Т.В.
+2022-08-15 20:35:23,514 - main - INFO - main_application: 503 - Запуск БД. Пользователь: Фриауф Т.В.
+2022-08-15 20:36:02,553 - main - INFO - main_application: 503 - Запуск БД. Пользователь: Фриауф Т.В.
+2022-08-15 20:36:53,317 - main - INFO - main_application: 503 - Запуск БД. Пользователь: Фриауф Т.В.
+2022-08-15 20:43:33,611 - main - WARNING - message_loging: 473 - Фриауф Т.В.: Адрес Ленинградская ул. д. не существует!
+2022-08-15 20:43:45,035 - main - INFO - message_loging: 471 - Фриауф Т.В.: Новая запись в БД. 20:36, Длиннофамильный Длинноимен да еще и с отчеством, Тестовое обраще...
+2022-08-15 20:44:42,355 - main - INFO - main_application: 503 - Запуск БД. Пользователь: Фриауф Т.В.
+2022-08-15 20:49:28,649 - main - INFO - main_application: 504 - Запуск БД. Пользователь: Фриауф Т.В.
+2022-08-15 20:50:35,011 - main - INFO - main_application: 505 - Запуск БД. Пользователь: Фриауф Т.В.
+2022-08-15 20:51:27,224 - main - INFO - main_application: 506 - Запуск БД. Пользователь: Фриауф Т.В.
+2022-08-15 20:52:12,447 - main - INFO - main_application: 506 - Запуск БД. Пользователь: Фриауф Т.В.
+2022-08-15 20:52:40,806 - main - INFO - main_application: 506 - Запуск БД. Пользователь: Фриауф Т.В.
+2022-08-15 20:55:43,061 - main - INFO - main_application: 505 - Запуск БД. Пользователь: Фриауф Т.В.
+2022-08-15 20:57:30,728 - main - INFO - main_application: 505 - Запуск БД. Пользователь: Фриауф Т.В.
+2022-08-15 21:04:31,305 - main - INFO - main_application: 505 - Запуск БД. Пользователь: Фриауф Т.В.
+2022-08-15 21:08:37,195 - main - INFO - main_application: 505 - Запуск БД. Пользователь: Фриауф Т.В.
+2022-08-15 21:15:43,485 - main - INFO - main_application: 513 - Запуск БД. Пользователь: Фриауф Т.В.
+2022-08-15 21:18:14,565 - main - INFO - main_application: 513 - Запуск БД. Пользователь: Фриауф Т.В.
+2022-08-15 21:25:40,705 - main - INFO - main_application: 514 - Запуск БД. Пользователь: Фриауф Т.В.
+2022-08-15 21:26:55,779 - main - INFO - main_application: 514 - Запуск БД. Пользователь: Фриауф Т.В.
+2022-08-15 21:27:37,599 - main - INFO - main_application: 514 - Запуск БД. Пользователь: Фриауф Т.В.
+2022-08-15 21:31:33,662 - main - INFO - main_application: 515 - Запуск БД. Пользователь: Фриауф Т.В.
+2022-08-15 21:32:40,917 - main - INFO - main_application: 515 - Запуск БД. Пользователь: Беляева А.А.
+2022-08-15 21:34:08,258 - main - INFO - main_application: 515 - Запуск БД. Пользователь: Фриауф Т.В.
+2022-08-15 21:37:28,628 - main - INFO - main_application: 515 - Запуск БД. Пользователь: Фриауф Т.В.
+2022-08-15 21:48:13,244 - main - INFO - main_application: 519 - Запуск БД. Пользователь: Иванова Л.П.
+2022-08-15 21:49:37,702 - main - INFO - main_application: 519 - Запуск БД. Пользователь: Фриауф Т.В.
+2022-08-15 21:50:58,806 - main - INFO - main_application: 520 - Запуск БД. Пользователь: Фриауф Т.В.
+2022-08-15 21:52:20,142 - main - INFO - main_application: 519 - Запуск БД. Пользователь: Фриауф Т.В.
+2022-08-15 22:06:20,355 - main - INFO - main_application: 534 - Запуск БД. Пользователь: Фриауф Т.В.
+2022-08-15 22:08:26,562 - main - INFO - main_application: 535 - Запуск БД. Пользователь: Фриауф Т.В.
+2022-08-15 22:08:46,197 - main - INFO - main_application: 535 - Запуск БД. Пользователь: Фриауф Т.В.
+2022-08-15 22:09:14,356 - main - INFO - main_application: 535 - Запуск БД. Пользователь: Фриауф Т.В.
+2022-08-15 22:12:57,459 - main - INFO - main_application: 535 - Запуск БД. Пользователь: Фриауф Т.В.
+2022-08-15 22:15:23,346 - main - INFO - main_application: 535 - Запуск БД. Пользователь: Фриауф Т.В.
+2022-08-15 22:17:05,292 - main - INFO - main_application: 535 - Запуск БД. Пользователь: Фриауф Т.В.
+2022-08-15 22:18:10,871 - main - INFO - main_application: 535 - Запуск БД. Пользователь: Фриауф Т.В.
+2022-08-15 22:19:08,988 - main - INFO - main_application: 535 - Запуск БД. Пользователь: Фриауф Т.В.
+2022-08-15 22:20:34,012 - main - INFO - main_application: 536 - Запуск БД. Пользователь: Фриауф Т.В.
+2022-08-15 22:20:44,451 - main - INFO - main_application: 536 - Запуск БД. Пользователь: Фриауф Т.В.
+2022-08-15 22:21:00,087 - main - INFO - main_application: 536 - Запуск БД. Пользователь: Фриауф Т.В.
+2022-08-15 22:21:15,908 - main - INFO - main_application: 536 - Запуск БД. Пользователь: Фриауф Т.В.
+2022-08-15 22:22:02,079 - main - INFO - main_application: 536 - Запуск БД. Пользователь: Фриауф Т.В.
+2022-08-15 22:24:03,354 - main - INFO - main_application: 537 - Запуск БД. Пользователь: Фриауф Т.В.
+2022-08-15 22:24:59,090 - main - INFO - main_application: 537 - Запуск БД. Пользователь: Фриауф Т.В.
+2022-08-15 22:27:59,115 - main - INFO - main_application: 536 - Запуск БД. Пользователь: Фриауф Т.В.
+2022-08-15 22:28:25,157 - main - INFO - main_application: 535 - Запуск БД. Пользователь: Фриауф Т.В.
+2022-08-15 22:50:18,795 - main - INFO - main_application: 544 - Запуск БД. Пользователь: Фриауф Т.В.
+2022-08-15 22:50:51,391 - main - INFO - main_application: 544 - Запуск БД. Пользователь: Фриауф Т.В.
+2022-08-15 22:51:48,063 - main - INFO - main_application: 544 - Запуск БД. Пользователь: Фриауф Т.В.
+2022-08-15 22:52:44,950 - main - INFO - main_application: 544 - Запуск БД. Пользователь: Фриауф Т.В.
+2022-08-15 22:58:52,901 - main - INFO - main_application: 545 - Запуск БД. Пользователь: Фриауф Т.В.
+2022-08-15 23:25:34,570 - main - INFO - main_application: 550 - Запуск БД. Пользователь: Фриауф Т.В.
+2022-08-15 23:25:50,194 - main - INFO - main_application: 550 - Запуск БД. Пользователь: Новик О.А.
+2022-08-15 23:27:32,327 - main - INFO - message_logging: 516 - Новик О.А.: Новая запись в БД. 23:25, Сидорова Елена, Продолжаем тест...
+2022-08-15 23:28:59,356 - main - INFO - main_application: 550 - Запуск БД. Пользователь: Беляева А.А.
+2022-08-15 23:31:22,058 - main - INFO - main_application: 549 - Запуск БД. Пользователь: Иванова Л.П.
+2022-08-15 23:36:17,551 - main - INFO - main_application: 550 - Запуск БД. Пользователь: Фриауф Т.В.
+2022-08-15 23:51:28,998 - main - INFO - main_application: 550 - Запуск БД. Пользователь: Фриауф Т.В.
+2022-08-16 00:10:12,471 - main - INFO - main_application: 550 - Запуск БД. Пользователь: Фриауф Т.В.
+2022-08-16 00:12:06,607 - main - INFO - main_application: 550 - Запуск БД. Пользователь: Фриауф Т.В.
+2022-08-16 00:15:29,804 - main - INFO - main_application: 550 - Запуск БД. Пользователь: Фриауф Т.В.
+2022-08-16 00:18:25,311 - main - INFO - main_application: 552 - Запуск БД. Пользователь: Фриауф Т.В.
+2022-08-16 00:19:27,631 - main - INFO - main_application: 553 - Запуск БД. Пользователь: Фриауф Т.В.
+2022-08-16 00:23:42,294 - main - INFO - main_application: 553 - Запуск БД. Пользователь: Фриауф Т.В.
+2022-08-16 00:24:09,313 - main - INFO - main_application: 553 - Запуск БД. Пользователь: Фриауф Т.В.
+2022-08-16 00:28:11,638 - main - INFO - main_application: 553 - Запуск БД. Пользователь: Фриауф Т.В.
+2022-08-16 00:30:09,276 - main - INFO - main_application: 553 - Запуск БД. Пользователь: Фриауф Т.В.
+2022-08-16 00:42:45,129 - main - INFO - main_application: 578 - Запуск БД. Пользователь: Мазурова Е.А.
+2022-08-16 00:43:42,430 - main - INFO - main_application: 578 - Запуск БД. Пользователь: Фриауф Т.В.
+2022-08-16 00:45:55,562 - main - INFO - main_application: 578 - Запуск БД. Пользователь: Фриауф Т.В.
+2022-08-16 00:47:05,713 - main - INFO - main_application: 578 - Запуск БД. Пользователь: Фриауф Т.В.
+2022-08-16 00:48:08,549 - main - INFO - message_logging: 545 - Фриауф Т.В.: Новая запись в БД. 00:47, Петров, Обращение тесто...
+2022-08-16 00:48:54,994 - main - INFO - message_logging: 545 - Фриауф Т.В.: Изменения внесены. 00:47, Петров, Обращение тесто...
+2022-08-16 00:50:57,428 - main - INFO - message_logging: 545 - Фриауф Т.В.: Изменения внесены. 20:36, Длиннофамильный Длинноимен да еще и с отчеством, Тестовое обраще...
+2022-08-16 00:51:20,802 - main - INFO - main_application: 578 - Запуск БД. Пользователь: Фриауф Т.В.
+2022-08-16 00:51:23,310 - main - INFO - message_logging: 545 - Фриауф Т.В.: Изменения внесены. 20:36, Длиннофамильный Длинноимен да еще и с отчеством, Тестовое обраще...
+2022-08-16 00:53:39,294 - main - INFO - main_application: 577 - Запуск БД. Пользователь: Беляева А.А.
+2022-08-16 00:54:12,586 - main - INFO - message_logging: 544 - Беляева А.А.: Изменения внесены. 05:33, Иванов Иван, Обращние-сообще...
+2022-08-16 01:05:55,722 - main - INFO - main_application: 578 - Запуск БД. Пользователь: Фриауф Т.В.
+2022-08-16 01:06:37,993 - main - INFO - message_logging: 545 - Фриауф Т.В.: Изменения внесены. id 21 - Сидорова Елена, Продолжаем тест...
+2022-08-16 01:07:21,326 - main - INFO - main_application: 578 - Запуск БД. Пользователь: Фриауф Т.В.
+2022-08-16 01:12:05,751 - main - INFO - main_application: 578 - Запуск БД. Пользователь: Фриауф Т.В.
+2022-08-16 01:13:27,222 - main - INFO - message_logging: 545 - Фриауф Т.В.: Изменения внесены. id 20 - Длиннофамильный Длинноимен да еще и с отчеством, Сокращено измен...
+2022-08-16 01:32:07,684 - main - INFO - main_application: 585 - Запуск БД. Пользователь: Беляева А.А.
+2022-08-16 03:14:59,001 - main - INFO - main_application: 585 - Запуск БД. Пользователь: Мазурова Е.А.
+2022-08-16 03:15:40,285 - main - INFO - message_logging: 552 - Мазурова Е.А.: Изменения внесены в id 18 - Заявитель (Иванов Иван),Обращение (Обращение-сообщ...)
+2022-08-16 03:16:59,763 - main - INFO - message_logging: 552 - Мазурова Е.А.: Изменения внесены в id 13 - Заявитель (Татьяна Ильинична),Обращение (На детской площ...)
+2022-08-16 03:17:58,967 - main - WARNING - message_logging: 556 - Мазурова Е.А.: Длина номера телефона не может быть меньше 7 цифр или больше 11
+2022-08-17 02:44:45,302 - main - INFO - main_application: 585 - Запуск БД. Пользователь: Фриауф Т.В.
+2022-08-17 02:50:31,508 - main - INFO - message_logging: 552 - Фриауф Т.В.: Изменения внесены в id 2 - Заявитель (Ульяна Михайловна),Обращение (От сильного вет...)
+2022-08-17 02:51:24,584 - main - WARNING - message_logging: 556 - Фриауф Т.В.: Длина номера телефона не может быть меньше 7 цифр или больше 11
+2022-08-17 02:51:41,213 - main - INFO - message_logging: 552 - Фриауф Т.В.: Изменения внесены в id 7 - Заявитель (Елена Васильевна),Обращение (Тр-ся уборка л/...)
+2022-08-17 02:52:14,037 - main - INFO - message_logging: 552 - Фриауф Т.В.: Изменения внесены в id 14 - Заявитель (Петр Семенович),Обращение (В кухне, в ванн...)
+2022-08-17 02:53:54,270 - main - INFO - main_application: 585 - Запуск БД. Пользователь: Фриауф Т.В.
+2022-08-17 03:59:10,964 - main - INFO - main_application: 585 - Запуск БД. Пользователь: Мазурова Е.А.
+2022-08-17 04:01:19,640 - main - INFO - main_application: 585 - Запуск БД. Пользователь: Фриауф Т.В.
+2022-08-17 04:03:41,964 - main - INFO - message_logging: 552 - Фриауф Т.В.: Изменения внесены в id 22 - Заявитель (Петров),Обращение (Обращение тесто...)
+2022-08-17 04:06:00,849 - main - INFO - message_logging: 552 - Фриауф Т.В.: Новая запись в БД. Дата: 2022-08-17 04:03, Заявитель (Картошкин Егор),Обращение (Жалоба на сосед...)
+2022-08-17 04:06:11,765 - main - INFO - message_logging: 552 - Фриауф Т.В.: Изменения внесены в id 23 - Заявитель (Картошкин Егор),Обращение (Жалоба на сосед...)
+2022-08-17 04:11:03,248 - main - INFO - main_application: 585 - Запуск БД. Пользователь: Фриауф Т.В.
+2022-08-17 04:16:17,631 - main - INFO - main_application: 585 - Запуск БД. Пользователь: Фриауф Т.В.
+2022-08-17 04:19:14,615 - main - INFO - main_application: 585 - Запуск БД. Пользователь: Фриауф Т.В.
+2022-08-17 04:29:12,435 - main - INFO - main_application: 585 - Запуск БД. Пользователь: Фриауф Т.В.
+2022-08-17 04:30:39,852 - main - INFO - main_application: 585 - Запуск БД. Пользователь: Фриауф Т.В.
+2022-08-17 04:31:03,584 - main - INFO - main_application: 585 - Запуск БД. Пользователь: Фриауф Т.В.
+2022-08-17 04:42:20,671 - main - INFO - main_application: 593 - Запуск БД. Пользователь: Фриауф Т.В.
+2022-08-17 04:45:28,681 - main - INFO - main_application: 593 - Запуск БД. Пользователь: Фриауф Т.В.
+2022-08-17 04:46:15,234 - main - INFO - main_application: 592 - Запуск БД. Пользователь: Фриауф Т.В.
+2022-08-17 04:53:53,609 - main - INFO - main_application: 595 - Запуск БД. Пользователь: Фриауф Т.В.
+2022-08-17 04:54:03,359 - main - WARNING - message_logging: 563 - Фриауф Т.В.: Длина номера телефона не может быть меньше 7 цифр или больше 11
+2022-08-17 04:55:00,625 - main - INFO - main_application: 595 - Запуск БД. Пользователь: Фриауф Т.В.
+2022-08-17 04:55:06,311 - main - WARNING - message_logging: 563 - Фриауф Т.В.: Длина номера телефона не может быть меньше 7 цифр или больше 11
+2022-08-17 05:02:51,503 - main - INFO - main_application: 591 - Запуск БД. Пользователь: Фриауф Т.В.
+2022-08-17 05:04:29,651 - main - INFO - main_application: 591 - Запуск БД. Пользователь: Фриауф Т.В.
+2022-08-17 05:04:33,677 - main - WARNING - message_logging: 559 - Фриауф Т.В.: Длина номера телефона не может быть меньше 7 цифр или больше 11
+2022-08-17 05:15:24,016 - main - INFO - main_application: 591 - Запуск БД. Пользователь: Фриауф Т.В.
+2022-08-17 05:15:27,815 - main - WARNING - message_logging: 559 - Фриауф Т.В.: Длина номера телефона не может быть меньше 7 цифр или больше 11
+2022-08-17 05:19:57,040 - main - INFO - main_application: 591 - Запуск БД. Пользователь: Фриауф Т.В.
+2022-08-17 05:21:23,507 - main - INFO - main_application: 591 - Запуск БД. Пользователь: Фриауф Т.В.
+2022-08-17 05:23:05,563 - main - INFO - main_application: 588 - Запуск БД. Пользователь: Фриауф Т.В.
+2022-08-17 05:23:09,090 - main - WARNING - message_logging: 557 - Фриауф Т.В.: Длина номера телефона не может быть меньше 7 цифр или больше 11
+2022-08-17 05:23:19,253 - main - INFO - main_application: 588 - Запуск БД. Пользователь: Фриауф Т.В.
+2022-08-18 01:28:05,921 - main - INFO - main_application: 589 - Запуск БД. Пользователь: Фриауф Т.В.
+2022-08-18 01:29:10,200 - main - INFO - main_application: 589 - Запуск БД. Пользователь: Фриауф Т.В.
+2022-08-18 01:29:14,161 - main - WARNING - message_logging: 558 - Фриауф Т.В.: Длина номера телефона не может быть меньше 7 цифр или больше 11
+2022-08-18 01:29:26,725 - main - INFO - main_application: 589 - Запуск БД. Пользователь: Фриауф Т.В.
+2022-08-18 01:29:30,099 - main - WARNING - message_logging: 558 - Фриауф Т.В.: Длина номера телефона не может быть меньше 7 цифр или больше 11
+2022-08-18 01:29:45,509 - main - INFO - main_application: 589 - Запуск БД. Пользователь: Фриауф Т.В.
+2022-08-18 01:29:50,939 - main - WARNING - message_logging: 558 - Фриауф Т.В.: Длина номера телефона не может быть меньше 7 цифр или больше 11
+2022-08-18 01:32:11,289 - main - INFO - main_application: 589 - Запуск БД. Пользователь: Фриауф Т.В.
+2022-08-18 01:32:16,494 - main - WARNING - message_logging: 558 - Фриауф Т.В.: Длина номера телефона не может быть меньше 7 цифр или больше 11
+2022-08-18 01:33:07,968 - main - INFO - main_application: 590 - Запуск БД. Пользователь: Фриауф Т.В.
+2022-08-18 01:33:13,518 - main - WARNING - message_logging: 558 - Фриауф Т.В.: Длина номера телефона не может быть меньше 7 цифр или больше 11
+2022-08-18 01:35:52,790 - main - INFO - main_application: 589 - Запуск БД. Пользователь: Фриауф Т.В.
+2022-08-18 01:43:35,883 - main - INFO - main_application: 589 - Запуск БД. Пользователь: Фриауф Т.В.
+2022-08-18 01:44:16,813 - main - INFO - main_application: 589 - Запуск БД. Пользователь: Фриауф Т.В.
+2022-08-18 01:45:44,346 - main - INFO - main_application: 589 - Запуск БД. Пользователь: Фриауф Т.В.
+2022-08-18 01:46:18,729 - main - INFO - main_application: 589 - Запуск БД. Пользователь: Фриауф Т.В.
+2022-08-18 01:46:51,741 - main - WARNING - message_logging: 558 - Фриауф Т.В.: Длина номера телефона не может быть меньше 7 цифр или больше 11
+2022-08-18 01:57:49,584 - main - INFO - main_application: 584 - Запуск БД. Пользователь: Фриауф Т.В.
+2022-08-18 01:58:10,679 - main - INFO - main_application: 584 - Запуск БД. Пользователь: Фриауф Т.В.
+2022-08-18 01:58:28,864 - main - INFO - main_application: 584 - Запуск БД. Пользователь: Фриауф Т.В.
+2022-08-18 01:58:55,826 - main - INFO - main_application: 584 - Запуск БД. Пользователь: Фриауф Т.В.
+2022-08-18 01:59:26,757 - main - INFO - main_application: 585 - Запуск БД. Пользователь: Фриауф Т.В.
+2022-08-18 02:00:42,648 - main - INFO - main_application: 584 - Запуск БД. Пользователь: Фриауф Т.В.
+2022-08-18 02:01:30,199 - main - INFO - main_application: 586 - Запуск БД. Пользователь: Фриауф Т.В.
+2022-08-18 02:01:53,092 - main - INFO - main_application: 585 - Запуск БД. Пользователь: Фриауф Т.В.
+2022-08-18 02:02:06,919 - main - WARNING - message_logging: 562 - Фриауф Т.В.: Длина номера телефона не может быть меньше 7 цифр или больше 11
+2022-08-18 02:04:06,080 - main - INFO - main_application: 585 - Запуск БД. Пользователь: Фриауф Т.В.
+2022-08-18 02:06:08,045 - main - INFO - main_application: 582 - Запуск БД. Пользователь: Фриауф Т.В.
+2022-08-18 02:06:13,095 - main - WARNING - message_logging: 560 - Фриауф Т.В.: Длина номера телефона не может быть меньше 7 цифр или больше 11
+2022-08-18 02:06:52,584 - main - INFO - main_application: 583 - Запуск БД. Пользователь: Фриауф Т.В.
+2022-08-18 02:06:59,370 - main - WARNING - message_logging: 560 - Фриауф Т.В.: Длина номера телефона не может быть меньше 7 цифр или больше 11
+2022-08-18 02:08:29,435 - main - INFO - main_application: 585 - Запуск БД. Пользователь: Фриауф Т.В.
+2022-08-18 02:08:34,218 - main - WARNING - message_logging: 560 - Фриауф Т.В.: Длина номера телефона не может быть меньше 7 цифр или больше 11
+2022-08-18 02:09:30,348 - main - INFO - main_application: 585 - Запуск БД. Пользователь: Фриауф Т.В.
+2022-08-18 02:09:33,360 - main - WARNING - message_logging: 560 - Фриауф Т.В.: Длина номера телефона не может быть меньше 7 цифр или больше 11
+2022-08-18 02:10:14,250 - main - INFO - main_application: 585 - Запуск БД. Пользователь: Фриауф Т.В.
+2022-08-18 02:10:17,541 - main - WARNING - message_logging: 560 - Фриауф Т.В.: Длина номера телефона не может быть меньше 7 цифр или больше 11
+2022-08-18 02:12:05,397 - main - INFO - main_application: 585 - Запуск БД. Пользователь: Фриауф Т.В.
+2022-08-18 02:12:10,084 - main - WARNING - message_logging: 560 - Фриауф Т.В.: Длина номера телефона не может быть меньше 7 цифр или больше 11
+2022-08-18 02:14:01,130 - main - INFO - main_application: 585 - Запуск БД. Пользователь: Фриауф Т.В.
+2022-08-18 02:14:04,940 - main - WARNING - message_logging: 560 - Фриауф Т.В.: Длина номера телефона не может быть меньше 7 цифр или больше 11
+2022-08-18 02:15:13,794 - main - INFO - main_application: 585 - Запуск БД. Пользователь: Фриауф Т.В.
+2022-08-18 02:15:29,353 - main - WARNING - message_logging: 560 - Фриауф Т.В.: Длина номера телефона не может быть меньше 7 цифр или больше 11
+2022-08-18 02:15:34,767 - main - WARNING - message_logging: 560 - Фриауф Т.В.: Длина номера телефона не может быть меньше 7 цифр или больше 11
+2022-08-18 02:15:57,314 - main - INFO - main_application: 585 - Запуск БД. Пользователь: Фриауф Т.В.
+2022-08-18 02:16:01,496 - main - WARNING - message_logging: 560 - Фриауф Т.В.: Длина номера телефона не может быть меньше 7 цифр или больше 11
+2022-08-18 02:16:02,700 - main - WARNING - message_logging: 560 - Фриауф Т.В.: Длина номера телефона не может быть меньше 7 цифр или больше 11
+2022-08-18 02:17:24,958 - main - INFO - main_application: 586 - Запуск БД. Пользователь: Фриауф Т.В.
+2022-08-18 02:17:29,628 - main - WARNING - message_logging: 560 - Фриауф Т.В.: Длина номера телефона не может быть меньше 7 цифр или больше 11
+2022-08-18 02:18:21,224 - main - INFO - main_application: 584 - Запуск БД. Пользователь: Фриауф Т.В.
+2022-08-18 02:18:27,230 - main - WARNING - message_logging: 560 - Фриауф Т.В.: Длина номера телефона не может быть меньше 7 цифр или больше 11
+2022-08-18 02:19:23,101 - main - INFO - main_application: 584 - Запуск БД. Пользователь: Фриауф Т.В.
+2022-08-18 02:19:27,845 - main - WARNING - message_logging: 560 - Фриауф Т.В.: Длина номера телефона не может быть меньше 7 цифр или больше 11
+2022-08-18 02:19:38,465 - main - INFO - main_application: 584 - Запуск БД. Пользователь: Фриауф Т.В.
+2022-08-18 02:19:44,244 - main - WARNING - message_logging: 560 - Фриауф Т.В.: Длина номера телефона не может быть меньше 7 цифр или больше 11
+2022-08-18 02:22:51,885 - main - INFO - main_application: 585 - Запуск БД. Пользователь: Фриауф Т.В.
+2022-08-18 02:22:55,898 - main - WARNING - message_logging: 560 - Фриауф Т.В.: Длина номера телефона не может быть меньше 7 цифр или больше 11
+2022-08-18 02:23:08,650 - main - INFO - main_application: 585 - Запуск БД. Пользователь: Фриауф Т.В.
+2022-08-18 02:23:13,559 - main - WARNING - message_logging: 560 - Фриауф Т.В.: Длина номера телефона не может быть меньше 7 цифр или больше 11
+2022-08-18 02:24:59,594 - main - INFO - main_application: 587 - Запуск БД. Пользователь: Фриауф Т.В.
+2022-08-18 02:25:04,067 - main - WARNING - message_logging: 560 - Фриауф Т.В.: Длина номера телефона не может быть меньше 7 цифр или больше 11
+2022-08-18 02:25:34,818 - main - INFO - main_application: 587 - Запуск БД. Пользователь: Фриауф Т.В.
+2022-08-18 02:25:37,727 - main - WARNING - message_logging: 560 - Фриауф Т.В.: Длина номера телефона не может быть меньше 7 цифр или больше 11
+2022-08-18 02:26:40,868 - main - INFO - main_application: 587 - Запуск БД. Пользователь: Фриауф Т.В.
+2022-08-18 02:26:46,226 - main - WARNING - message_logging: 560 - Фриауф Т.В.: Длина номера телефона не может быть меньше 7 цифр или больше 11
+2022-08-18 02:27:34,667 - main - INFO - main_application: 589 - Запуск БД. Пользователь: Фриауф Т.В.
+2022-08-18 02:27:38,159 - main - WARNING - message_logging: 562 - Фриауф Т.В.: Длина номера телефона не может быть меньше 7 цифр или больше 11
+2022-08-18 02:28:18,002 - main - INFO - main_application: 589 - Запуск БД. Пользователь: Фриауф Т.В.
+2022-08-18 02:28:20,666 - main - WARNING - message_logging: 562 - Фриауф Т.В.: Длина номера телефона не может быть меньше 7 цифр или больше 11
+2022-08-18 02:28:34,373 - main - INFO - main_application: 589 - Запуск БД. Пользователь: Фриауф Т.В.
+2022-08-18 02:28:37,082 - main - WARNING - message_logging: 562 - Фриауф Т.В.: Длина номера телефона не может быть меньше 7 цифр или больше 11
+2022-08-18 02:28:39,506 - main - WARNING - message_logging: 562 - Фриауф Т.В.: Длина номера телефона не может быть меньше 7 цифр или больше 11
+2022-08-18 02:30:26,458 - main - INFO - main_application: 589 - Запуск БД. Пользователь: Фриауф Т.В.
+2022-08-18 02:30:30,773 - main - WARNING - message_logging: 562 - Фриауф Т.В.: Длина номера телефона не может быть меньше 7 цифр или больше 11
+2022-08-18 02:32:25,548 - main - INFO - main_application: 589 - Запуск БД. Пользователь: Фриауф Т.В.
+2022-08-18 02:32:28,398 - main - WARNING - message_logging: 562 - Фриауф Т.В.: Длина номера телефона не может быть меньше 7 цифр или больше 11
+2022-08-18 02:32:46,811 - main - INFO - main_application: 589 - Запуск БД. Пользователь: Фриауф Т.В.
+2022-08-18 02:32:50,413 - main - WARNING - message_logging: 562 - Фриауф Т.В.: Длина номера телефона не может быть меньше 7 цифр или больше 11
+2022-08-18 02:36:02,923 - main - INFO - main_application: 590 - Запуск БД. Пользователь: Фриауф Т.В.
+2022-08-18 02:36:06,626 - main - WARNING - message_logging: 561 - Фриауф Т.В.: Длина номера телефона не может быть меньше 7 цифр или больше 11
+2022-08-18 02:36:17,408 - main - WARNING - message_logging: 561 - Фриауф Т.В.: Длина номера телефона не может быть меньше 7 цифр или больше 11
+2022-08-18 02:40:40,963 - main - INFO - main_application: 592 - Запуск БД. Пользователь: Фриауф Т.В.
+2022-08-18 02:40:47,196 - main - WARNING - message_logging: 564 - Фриауф Т.В.: Длина номера телефона не может быть меньше 7 цифр или больше 11
+2022-08-18 02:40:51,208 - main - WARNING - message_logging: 564 - Фриауф Т.В.: Длина номера телефона не может быть меньше 7 цифр или больше 11
+2022-08-18 02:41:14,698 - main - INFO - main_application: 592 - Запуск БД. Пользователь: Мазурова Е.А.
+2022-08-18 02:42:29,642 - main - INFO - message_logging: 558 - Мазурова Е.А.: Новая запись в БД. Дата: 2022-08-18 02:41, Заявитель (Сергеев А.И.),Обращение (Обращение для т...)
+2022-08-18 02:43:01,443 - main - INFO - main_application: 591 - Запуск БД. Пользователь: Фриауф Т.В.
+2022-08-18 02:43:06,483 - main - WARNING - message_logging: 564 - Фриауф Т.В.: Длина номера телефона не может быть меньше 7 цифр или больше 11
+2022-08-18 02:43:09,407 - main - WARNING - message_logging: 564 - Фриауф Т.В.: Длина номера телефона не может быть меньше 7 цифр или больше 11
+2022-08-18 02:43:31,919 - main - INFO - main_application: 591 - Запуск БД. Пользователь: Мазурова Е.А.
+2022-08-18 02:45:10,469 - main - INFO - message_logging: 558 - Мазурова Е.А.: Новая запись в БД. Дата: 2022-08-18 04:43, Заявитель (Поддубный Семен),Обращение (Обращение для т...)
+2022-08-18 02:48:44,478 - main - INFO - main_application: 594 - Запуск БД. Пользователь: Фриауф Т.В.
+2022-08-18 02:48:49,318 - main - WARNING - message_logging: 565 - Фриауф Т.В.: Длина номера телефона не может быть меньше 7 цифр или больше 11
+2022-08-18 02:49:11,563 - main - WARNING - message_logging: 565 - Фриауф Т.В.: Адрес А4543534534534 не существует!
+2022-08-18 05:27:48,841 - main - INFO - main_application: 594 - Запуск БД. Пользователь: Фриауф Т.В.
+2022-08-18 05:28:38,949 - main - INFO - main_application: 594 - Запуск БД. Пользователь: Фриауф Т.В.
+2022-08-18 05:33:52,561 - main - INFO - main_application: 594 - Запуск БД. Пользователь: Фриауф Т.В.
+2022-08-18 05:34:20,112 - main - INFO - main_application: 594 - Запуск БД. Пользователь: Фриауф Т.В.
+2022-08-18 23:55:03,086 - main - INFO - main_application: 596 - Запуск БД. Пользователь: Фриауф Т.В.
+2022-08-18 23:55:35,301 - main - INFO - main_application: 596 - Запуск БД. Пользователь: Фриауф Т.В.
+2022-08-18 23:56:17,227 - main - INFO - main_application: 596 - Запуск БД. Пользователь: Фриауф Т.В.
+2022-08-19 00:09:08,270 - main - INFO - main_application: 601 - Запуск БД. Пользователь: Фриауф Т.В.
+2022-08-19 00:14:59,951 - main - INFO - main_application: 611 - Запуск БД. Пользователь: Фриауф Т.В.
+2022-08-19 00:18:41,302 - main - INFO - main_application: 616 - Запуск БД. Пользователь: Фриауф Т.В.
+2022-08-19 00:19:25,059 - main - INFO - main_application: 616 - Запуск БД. Пользователь: Фриауф Т.В.
+2022-08-19 00:19:52,854 - main - INFO - main_application: 616 - Запуск БД. Пользователь: Фриауф Т.В.
+2022-08-19 00:23:41,546 - main - INFO - main_application: 621 - Запуск БД. Пользователь: Фриауф Т.В.
+2022-08-19 00:28:43,248 - main - INFO - main_application: 621 - Запуск БД. Пользователь: Фриауф Т.В.
+2022-08-19 00:34:42,870 - main - INFO - main_application: 627 - Запуск БД. Пользователь: Фриауф Т.В.
+2022-08-19 00:37:31,077 - main - INFO - main_application: 627 - Запуск БД. Пользователь: Фриауф Т.В.
+2022-08-19 01:35:55,122 - main - INFO - main_application: 627 - Запуск БД. Пользователь: Фриауф Т.В.
+2022-08-19 01:36:53,704 - main - INFO - main_application: 627 - Запуск БД. Пользователь: Иванова Л.П.
+2022-08-19 01:39:09,107 - main - INFO - message_logging: 592 - Иванова Л.П.: Новая запись в БД. Дата: 2022-08-19 01:36, Заявитель (Стаханова Екатерина),Обращение (Соседи громко ч...)
+2022-08-19 01:51:41,137 - main - INFO - main_application: 628 - Запуск БД. Пользователь: Иванова Л.П.
+2022-08-19 01:53:29,482 - main - INFO - message_logging: 593 - Иванова Л.П.: Изменения внесены в id 18 - Заявитель (Иванов Иван),Обращение (Обращение-сообщ...)
+2022-08-19 02:00:34,347 - main - INFO - main_application: 629 - Запуск БД. Пользователь: Фриауф Т.В.
+2022-08-19 02:02:10,571 - main - INFO - main_application: 629 - Запуск БД. Пользователь: Фриауф Т.В.
+2022-08-19 02:04:40,901 - main - INFO - main_application: 629 - Запуск БД. Пользователь: Иванова Л.П.
+2022-08-19 02:22:06,818 - main - INFO - main_application: 629 - Запуск БД. Пользователь: Фриауф Т.В.
+2022-08-19 02:40:47,023 - main - INFO - main_application: 649 - Запуск БД. Пользователь: Иванова Л.П.
+2022-08-19 03:25:28,967 - main - INFO - main_application: 655 - Запуск БД. Пользователь: Иванова Л.П.
+2022-08-19 03:53:19,863 - main - INFO - main_application: 682 - Запуск БД. Пользователь: Иванова Л.П.
+2022-08-19 03:54:11,985 - main - INFO - main_application: 682 - Запуск БД. Пользователь: Иванова Л.П.
+2022-08-19 03:54:47,010 - main - INFO - main_application: 682 - Запуск БД. Пользователь: Иванова Л.П.
+2022-08-19 03:56:30,585 - main - INFO - main_application: 684 - Запуск БД. Пользователь: Иванова Л.П.
+2022-08-19 03:57:01,234 - main - INFO - main_application: 683 - Запуск БД. Пользователь: Иванова Л.П.
+2022-08-19 03:58:22,918 - main - INFO - main_application: 684 - Запуск БД. Пользователь: Иванова Л.П.
+2022-08-19 03:59:08,280 - main - INFO - main_application: 684 - Запуск БД. Пользователь: Иванова Л.П.
+2022-08-19 03:59:22,769 - main - INFO - main_application: 684 - Запуск БД. Пользователь: Иванова Л.П.
+2022-08-19 03:59:51,396 - main - INFO - main_application: 684 - Запуск БД. Пользователь: Иванова Л.П.
+2022-08-19 04:01:20,474 - main - INFO - main_application: 687 - Запуск БД. Пользователь: Иванова Л.П.
+2022-08-19 04:07:24,639 - main - INFO - main_application: 700 - Запуск БД. Пользователь: Иванова Л.П.
+2022-08-19 04:13:16,217 - main - INFO - main_application: 702 - Запуск БД. Пользователь: Иванова Л.П.
+2022-08-19 04:13:36,542 - main - INFO - main_application: 702 - Запуск БД. Пользователь: Иванова Л.П.
+2022-08-19 04:26:24,275 - main - INFO - main_application: 702 - Запуск БД. Пользователь: Иванова Л.П.
+2022-08-19 04:30:39,742 - main - INFO - main_application: 703 - Запуск БД. Пользователь: Иванова Л.П.
+2022-08-19 04:31:24,131 - main - INFO - main_application: 703 - Запуск БД. Пользователь: Иванова Л.П.
+2022-08-19 04:36:22,365 - main - INFO - main_application: 705 - Запуск БД. Пользователь: Иванова Л.П.
+2022-08-19 04:36:48,508 - main - INFO - main_application: 705 - Запуск БД. Пользователь: Иванова Л.П.
+2022-08-19 04:38:28,897 - main - INFO - main_application: 709 - Запуск БД. Пользователь: Иванова Л.П.
+2022-08-20 01:25:45,730 - main - INFO - main_application: 709 - Запуск БД. Пользователь: Беляева А.А.
+2022-08-20 01:37:12,719 - main - INFO - main_application: 709 - Запуск БД. Пользователь: Беляева А.А.
+2022-08-20 01:47:01,910 - main - INFO - main_application: 708 - Запуск БД. Пользователь: Беляева А.А.
+2022-08-20 01:48:03,393 - main - INFO - main_application: 709 - Запуск БД. Пользователь: Беляева А.А.
+2022-08-20 01:50:33,759 - main - INFO - main_application: 710 - Запуск БД. Пользователь: Беляева А.А.
+2022-08-20 02:08:31,668 - main - INFO - main_application: 701 - Запуск БД. Пользователь: Беляева А.А.
+2022-08-20 02:10:56,593 - main - INFO - message_logging: 666 - Беляева А.А.: Новая запись в БД. Дата: 2022-08-20 02:08, Заявитель (Генералов Командир),Обращение (Объявлена война...)
+2022-08-20 02:18:02,494 - main - INFO - main_application: 704 - Запуск БД. Пользователь: Беляева А.А.
+2022-08-20 02:42:47,740 - main - INFO - main_application: 738 - Запуск БД. Пользователь: Беляева А.А.
+2022-08-20 02:44:41,685 - main - INFO - main_application: 738 - Запуск БД. Пользователь: Беляева А.А.
+2022-08-20 02:45:03,930 - main - INFO - main_application: 738 - Запуск БД. Пользователь: Фриауф Т.В.
+2022-08-20 02:49:31,587 - main - INFO - main_application: 743 - Запуск БД. Пользователь: Беляева А.А.
+2022-08-20 02:50:00,889 - main - INFO - main_application: 743 - Запуск БД. Пользователь: Беляева А.А.
+2022-08-20 02:53:59,120 - main - INFO - main_application: 745 - Запуск БД. Пользователь: Беляева А.А.
+2022-08-20 02:54:20,950 - main - INFO - main_application: 746 - Запуск БД. Пользователь: Беляева А.А.
+2022-08-20 02:56:21,817 - main - INFO - main_application: 746 - Запуск БД. Пользователь: Беляева А.А.
+2022-08-20 02:56:51,499 - main - INFO - main_application: 746 - Запуск БД. Пользователь: Беляева А.А.
+2022-08-20 03:39:19,843 - main - INFO - main_application: 780 - Запуск БД. Пользователь: Беляева А.А.
+2022-08-20 03:48:01,887 - main - INFO - main_application: 799 - Запуск БД. Пользователь: Беляева А.А.
+2022-08-20 03:50:13,133 - main - INFO - main_application: 799 - Запуск БД. Пользователь: Беляева А.А.
+2022-08-20 03:50:52,304 - main - INFO - main_application: 799 - Запуск БД. Пользователь: Беляева А.А.
+2022-08-20 03:52:19,877 - main - INFO - main_application: 800 - Запуск БД. Пользователь: Беляева А.А.
+2022-08-20 03:53:34,528 - main - INFO - main_application: 803 - Запуск БД. Пользователь: Беляева А.А.
+2022-08-20 03:55:01,722 - main - INFO - main_application: 803 - Запуск БД. Пользователь: Беляева А.А.
+2022-08-20 03:57:06,314 - main - INFO - message_logging: 768 - Беляева А.А.: Новая запись в БД. Дата: 2022-08-20 03:55, Заявитель (Доходяга Р.И.),Обращение (Не убирают лест...)
+2022-08-20 03:57:42,872 - main - INFO - main_application: 803 - Запуск БД. Пользователь: Фриауф Т.В.
+2022-08-20 04:00:48,763 - main - INFO - main_application: 803 - Запуск БД. Пользователь: Беляева А.А.
+2022-08-20 04:04:25,747 - main - INFO - main_application: 803 - Запуск БД. Пользователь: Беляева А.А.
+2022-08-20 04:07:21,288 - main - INFO - main_application: 803 - Запуск БД. Пользователь: Беляева А.А.
+2022-08-20 17:40:34,838 - main - INFO - main_application: 803 - Запуск БД. Пользователь: Беляева А.А.
+2022-08-20 17:43:03,428 - main - INFO - main_application: 803 - Запуск БД. Пользователь: Беляева А.А.
+2022-08-20 17:45:17,078 - main - INFO - main_application: 803 - Запуск БД. Пользователь: Беляева А.А.
+2022-08-20 17:46:21,821 - main - INFO - message_logging: 768 - Беляева А.А.: Изменения внесены в id 27 - Заявитель (Генералов Командир),Обращение (Объявлена война...)
+2022-08-20 18:07:56,430 - main - INFO - main_application: 805 - Запуск БД. Пользователь: Беляева А.А.
+2022-08-20 18:16:08,595 - main - INFO - main_application: 807 - Запуск БД. Пользователь: Беляева А.А.
+2022-08-20 18:18:26,528 - main - INFO - main_application: 807 - Запуск БД. Пользователь: Беляева А.А.
+2022-08-20 18:18:51,916 - main - INFO - main_application: 807 - Запуск БД. Пользователь: Беляева А.А.
+2022-08-20 18:19:52,809 - main - INFO - main_application: 807 - Запуск БД. Пользователь: Беляева А.А.
+2022-08-20 18:36:13,964 - main - INFO - main_application: 807 - Запуск БД. Пользователь: Беляева А.А.
+2022-08-20 18:44:24,285 - main - INFO - main_application: 814 - Запуск БД. Пользователь: Беляева А.А.
+2022-08-20 18:46:35,847 - main - INFO - main_application: 816 - Запуск БД. Пользователь: Беляева А.А.
+2022-08-20 18:47:52,643 - main - INFO - main_application: 816 - Запуск БД. Пользователь: Беляева А.А.
+2022-08-20 18:49:28,867 - main - INFO - main_application: 817 - Запуск БД. Пользователь: Беляева А.А.
+2022-08-20 19:05:11,005 - main - INFO - main_application: 826 - Запуск БД. Пользователь: Беляева А.А.
+2022-08-20 19:05:26,138 - main - INFO - message_logging: 789 - Беляева А.А.: Загружен отчет Отчет за ИЮЛЬ месяц 2022 года.Список из 16 строк данных. 
+2022-08-20 19:07:23,221 - main - INFO - main_application: 826 - Запуск БД. Пользователь: Беляева А.А.
+2022-08-20 19:07:26,346 - main - INFO - message_logging: 789 - Беляева А.А.: Загружен отчет 'Отчет за ИЮЛЬ месяц 2022 года'. Список из 16 строк данных. 
+2022-08-20 19:08:33,039 - main - INFO - main_application: 826 - Запуск БД. Пользователь: Беляева А.А.
+2022-08-20 19:08:35,900 - main - INFO - message_logging: 789 - Беляева А.А.: Загружен отчет 'Отчет за ИЮЛЬ месяц 2022 года'. Список из 0 строк данных. 
+2022-08-20 19:09:10,831 - main - INFO - main_application: 826 - Запуск БД. Пользователь: Беляева А.А.
+2022-08-20 19:09:14,287 - main - INFO - message_logging: 789 - Беляева А.А.: Загружен отчет 'Отчет за ИЮЛЬ месяц 2022 года'. Список из 0 строк данных. 
+2022-08-20 19:09:59,835 - main - INFO - main_application: 826 - Запуск БД. Пользователь: Беляева А.А.
+2022-08-20 19:10:03,746 - main - INFO - message_logging: 789 - Беляева А.А.: Загружен отчет 'Отчет за ИЮЛЬ месяц 2022 года'. Список из 0 строк данных. 
+2022-08-20 19:11:23,943 - main - INFO - main_application: 828 - Запуск БД. Пользователь: Беляева А.А.
+2022-08-20 19:11:26,704 - main - INFO - message_logging: 791 - Беляева А.А.: Загружен отчет 'Отчет за ИЮЛЬ месяц 2022 года'. Список из 8 строк данных. 
+2022-08-20 19:12:09,796 - main - INFO - message_logging: 791 - Беляева А.А.: Загружен отчет 'Отчет за ИЮЛЬ месяц 2022 года'. Список из 8 строк данных. 
+2022-08-20 19:21:43,398 - main - INFO - main_application: 828 - Запуск БД. Пользователь: Беляева А.А.
+2022-08-20 19:22:58,878 - main - INFO - message_logging: 791 - Беляева А.А.: Загружен отчет 'Отчет за ИЮЛЬ месяц 2022 года'. Список из 8 строк данных. 
+2022-08-20 19:27:27,337 - main - INFO - main_application: 831 - Запуск БД. Пользователь: Беляева А.А.
+2022-08-20 19:27:30,615 - main - WARNING - message_logging: 802 - Беляева А.А.: Для загрузки отчета выберите его название в списке
+2022-08-20 19:27:37,837 - main - INFO - message_logging: 794 - Беляева А.А.: Загружен отчет 'Отчет за ИЮЛЬ месяц 2022 года'. Список из 8 строк данных. 
+2022-08-21 00:51:50,999 - main - INFO - main_application: 840 - Запуск БД. Пользователь: Фриауф Т.В.
+2022-08-21 00:53:23,783 - main - INFO - main_application: 840 - Запуск БД. Пользователь: Фриауф Т.В.
+2022-08-21 00:53:27,980 - main - INFO - message_logging: 803 - Фриауф Т.В.: Загружен отчет 'Отчет за ИЮЛЬ месяц 2022 года'. Список из 8 строк данных. 
+2022-08-21 01:07:52,073 - main - INFO - main_application: 843 - Запуск БД. Пользователь: Фриауф Т.В.
+2022-08-21 01:32:10,354 - main - INFO - main_application: 874 - Запуск БД. Пользователь: Фриауф Т.В.
+2022-08-21 01:33:42,793 - main - INFO - main_application: 875 - Запуск БД. Пользователь: Фриауф Т.В.
+2022-08-21 01:33:59,601 - main - WARNING - message_logging: 846 - Фриауф Т.В.: Имя отчета должно быть не менее шести символов.
+2022-08-21 01:37:32,842 - main - INFO - main_application: 875 - Запуск БД. Пользователь: Фриауф Т.В.
+2022-08-21 01:39:14,000 - main - INFO - main_application: 875 - Запуск БД. Пользователь: Фриауф Т.В.
+2022-08-21 01:39:27,156 - main - ERROR - report_save: 779 - Exception occurred
+Traceback (most recent call last):
+  File "E:\QT_python_DispatcherDatabase\main.py", line 770, in report_save
+    connection.cursor().execute(
+sqlite3.OperationalError: near "2022": syntax error
+2022-08-21 01:39:27,172 - main - ERROR - message_logging: 842 - Фриауф Т.В.: Ошибка сохранения отчета! Повторите попытку.
+2022-08-21 01:39:27,172 - main - INFO - message_logging: 838 - Фриауф Т.В.: Сохранен новый отчет. Имя отчета (Неисполненные заявки за август 2022 года)
+2022-08-21 01:42:37,451 - main - INFO - main_application: 875 - Запуск БД. Пользователь: Фриауф Т.В.
+2022-08-21 01:42:48,939 - main - ERROR - report_save: 779 - Exception occurred
+Traceback (most recent call last):
+  File "E:\QT_python_DispatcherDatabase\main.py", line 770, in report_save
+    connection.cursor().execute(
+sqlite3.OperationalError: near "2022": syntax error
+2022-08-21 01:42:48,939 - main - ERROR - message_logging: 842 - Фриауф Т.В.: Ошибка сохранения отчета! Повторите попытку.
+2022-08-21 01:42:48,940 - main - INFO - message_logging: 838 - Фриауф Т.В.: Сохранен новый отчет. Имя отчета 'Неисполненные заявки за август 2022 года'
+2022-08-21 01:47:45,828 - main - INFO - main_application: 874 - Запуск БД. Пользователь: Фриауф Т.В.
+2022-08-21 01:48:25,110 - main - INFO - message_logging: 837 - Фриауф Т.В.: Сохранен новый отчет. Имя отчета 'Неисполненные отчеты за август 2022 года'
+2022-08-21 01:51:10,730 - main - INFO - main_application: 874 - Запуск БД. Пользователь: Фриауф Т.В.
+2022-08-21 01:51:34,625 - main - ERROR - report_save: 778 - Exception occurred
+Traceback (most recent call last):
+  File "E:\QT_python_DispatcherDatabase\main.py", line 770, in report_save
+    connection.cursor().execute(
+sqlite3.OperationalError: near "date": syntax error
+2022-08-21 01:51:34,625 - main - ERROR - message_logging: 841 - Фриауф Т.В.: Ошибка сохранения отчета! Повторите попытку.
+2022-08-21 01:51:34,629 - main - INFO - message_logging: 837 - Фриауф Т.В.: Сохранен новый отчет. Имя отчета 'Тестовый отчет'
+2022-08-21 01:52:48,002 - main - INFO - main_application: 874 - Запуск БД. Пользователь: Фриауф Т.В.
+2022-08-21 01:53:07,775 - main - ERROR - report_save: 778 - Exception occurred
+Traceback (most recent call last):
+  File "E:\QT_python_DispatcherDatabase\main.py", line 770, in report_save
+    connection.cursor().execute(
+sqlite3.OperationalError: near "date": syntax error
+2022-08-21 01:53:07,775 - main - ERROR - message_logging: 841 - Фриауф Т.В.: Ошибка сохранения отчета! Повторите попытку.
+2022-08-21 01:53:07,787 - main - INFO - message_logging: 837 - Фриауф Т.В.: Сохранен новый отчет. Имя отчета 'Пустые тест'
+2022-08-21 01:53:57,997 - main - WARNING - message_logging: 845 - Фриауф Т.В.: При сохранении имя отчета должно быть не менее шести символов.
+2022-08-21 01:54:40,548 - main - INFO - main_application: 874 - Запуск БД. Пользователь: Фриауф Т.В.
+2022-08-21 01:54:49,636 - main - ERROR - report_save: 778 - Exception occurred
+Traceback (most recent call last):
+  File "E:\QT_python_DispatcherDatabase\main.py", line 770, in report_save
+    connection.cursor().execute(
+sqlite3.OperationalError: near "date": syntax error
+2022-08-21 01:54:49,636 - main - ERROR - message_logging: 841 - Фриауф Т.В.: Ошибка сохранения отчета! Повторите попытку.
+2022-08-21 01:54:49,640 - main - INFO - message_logging: 837 - Фриауф Т.В.: Сохранен новый отчет. Имя отчета 'Имя отчета тестовый'
+2022-08-21 01:59:12,742 - main - INFO - main_application: 873 - Запуск БД. Пользователь: Фриауф Т.В.
+2022-08-21 01:59:19,678 - main - INFO - message_logging: 836 - Фриауф Т.В.: Сохранен новый отчет. Имя отчета '2321312312312'
+2022-08-21 02:00:29,170 - main - INFO - main_application: 873 - Запуск БД. Пользователь: Фриауф Т.В.
+2022-08-21 02:00:36,492 - main - INFO - message_logging: 836 - Фриауф Т.В.: Сохранен новый отчет. Имя отчета '43243242342342'
+2022-08-21 02:01:13,501 - main - INFO - main_application: 873 - Запуск БД. Пользователь: Фриауф Т.В.
+2022-08-21 02:01:21,984 - main - INFO - message_logging: 836 - Фриауф Т.В.: Сохранен новый отчет. Имя отчета '1234567'
+2022-08-21 02:02:30,199 - main - INFO - main_application: 873 - Запуск БД. Пользователь: Фриауф Т.В.
+2022-08-21 02:02:57,081 - main - INFO - message_logging: 836 - Фриауф Т.В.: Сохранен новый отчет. Имя отчета 'Имя тест'
+2022-08-21 02:05:35,109 - main - INFO - main_application: 873 - Запуск БД. Пользователь: Фриауф Т.В.
+2022-08-21 02:05:52,881 - main - ERROR - report_save: 777 - Exception occurred
+Traceback (most recent call last):
+  File "E:\QT_python_DispatcherDatabase\main.py", line 769, in report_save
+    connection.cursor().execute(
+sqlite3.OperationalError: near "2022": syntax error
+2022-08-21 02:05:52,881 - main - ERROR - message_logging: 840 - Фриауф Т.В.: Ошибка сохранения отчета! Повторите попытку.
+2022-08-21 02:05:52,893 - main - INFO - message_logging: 836 - Фриауф Т.В.: Сохранен новый отчет. Имя отчета 'Имя отчета тест'
+2022-08-21 02:16:31,477 - main - INFO - main_application: 871 - Запуск БД. Пользователь: Фриауф Т.В.
+2022-08-21 02:26:52,358 - main - INFO - main_application: 876 - Запуск БД. Пользователь: Фриауф Т.В.
+2022-08-21 02:27:28,779 - main - INFO - message_logging: 839 - Фриауф Т.В.: Сохранен новый отчет. Имя отчета 'Отчет неисполненных заявок за Август 2022 года'
+2022-08-21 02:33:18,312 - main - INFO - main_application: 878 - Запуск БД. Пользователь: Фриауф Т.В.
+2022-08-21 02:34:35,949 - main - INFO - main_application: 877 - Запуск БД. Пользователь: Фриауф Т.В.
+2022-08-21 02:36:47,660 - main - INFO - main_application: 877 - Запуск БД. Пользователь: Фриауф Т.В.
+2022-08-21 02:51:50,230 - main - INFO - main_application: 885 - Запуск БД. Пользователь: Фриауф Т.В.
+2022-08-21 02:53:29,236 - main - INFO - message_logging: 848 - Фриауф Т.В.: Сохранен новый отчет. Имя отчета 'Заявки принятые в Июне 2022 г. диспетчером Фриауф'
+2022-08-21 02:53:44,009 - main - INFO - main_application: 884 - Запуск БД. Пользователь: Фриауф Т.В.
+2022-08-21 03:04:23,818 - main - INFO - main_application: 905 - Запуск БД. Пользователь: Фриауф Т.В.
+2022-08-21 03:05:08,441 - main - INFO - main_application: 905 - Запуск БД. Пользователь: Фриауф Т.В.
+2022-08-21 03:06:17,434 - main - INFO - main_application: 905 - Запуск БД. Пользователь: Фриауф Т.В.
+2022-08-21 03:06:58,463 - main - INFO - main_application: 905 - Запуск БД. Пользователь: Фриауф Т.В.
+2022-08-21 03:08:05,956 - main - INFO - main_application: 905 - Запуск БД. Пользователь: Фриауф Т.В.
+2022-08-21 03:08:26,214 - main - INFO - main_application: 906 - Запуск БД. Пользователь: Фриауф Т.В.
+2022-08-21 03:09:05,324 - main - INFO - main_application: 906 - Запуск БД. Пользователь: Фриауф Т.В.
+2022-08-21 03:12:44,604 - main - INFO - main_application: 911 - Запуск БД. Пользователь: Фриауф Т.В.
+2022-08-21 03:13:21,563 - main - INFO - main_application: 911 - Запуск БД. Пользователь: Фриауф Т.В.
+2022-08-21 03:18:21,101 - main - INFO - main_application: 915 - Запуск БД. Пользователь: Фриауф Т.В.
+2022-08-21 03:19:38,550 - main - INFO - message_logging: 878 - Фриауф Т.В.: Сохранен новый отчет. Имя отчета 'Заявки с адреса Аммермана 44'
+2022-08-21 03:21:55,221 - main - INFO - message_logging: 878 - Фриауф Т.В.: Новая запись в БД. Дата: 2022-08-21 03:20, Заявитель (Очередной житель),Обращение (Нужно освятить ...)
+2022-08-21 03:25:44,352 - main - INFO - main_application: 914 - Запуск БД. Пользователь: Фриауф Т.В.
+2022-08-21 03:26:14,347 - main - INFO - main_application: 914 - Запуск БД. Пользователь: Фриауф Т.В.
+2022-08-21 03:27:28,023 - main - INFO - main_application: 916 - Запуск БД. Пользователь: Фриауф Т.В.
+2022-08-21 03:28:18,549 - main - INFO - main_application: 914 - Запуск БД. Пользователь: Фриауф Т.В.
+2022-08-21 03:36:52,903 - main - INFO - main_application: 945 - Запуск БД. Пользователь: Фриауф Т.В.
+2022-08-21 03:41:02,458 - main - INFO - main_application: 946 - Запуск БД. Пользователь: Фриауф Т.В.
+2022-08-21 03:41:29,036 - main - INFO - main_application: 946 - Запуск БД. Пользователь: Фриауф Т.В.
+2022-08-21 03:41:47,843 - main - INFO - main_application: 946 - Запуск БД. Пользователь: Фриауф Т.В.
+2022-08-21 03:46:05,124 - main - INFO - main_application: 949 - Запуск БД. Пользователь: Фриауф Т.В.
+2022-08-21 03:46:10,670 - main - WARNING - message_logging: 920 - Фриауф Т.В.: Для удаления отчета выберите его название в списке.
+2022-08-21 03:46:17,058 - main - INFO - message_logging: 912 - Фриауф Т.В.: Удален отчет. Имя отчета '2022-08-21'
+2022-08-21 03:46:56,068 - main - INFO - main_application: 948 - Запуск БД. Пользователь: Фриауф Т.В.
+2022-08-21 03:47:04,595 - main - INFO - message_logging: 911 - Фриауф Т.В.: Удален отчет. Имя отчета 'Отчет неисполненных заявок за Август 2022 года'
+2022-08-21 03:47:48,217 - main - WARNING - message_logging: 919 - Фриауф Т.В.: При сохранении имя отчета должно быть не менее шести символов.
+2022-08-21 16:52:17,137 - main - INFO - main_application: 956 - Запуск БД. Пользователь: Фриауф Т.В.
+2022-08-21 16:52:55,559 - main - INFO - main_application: 956 - Запуск БД. Пользователь: Фриауф Т.В.
+2022-08-21 17:02:46,536 - main - INFO - main_application: 954 - Запуск БД. Пользователь: Фриауф Т.В.
+2022-08-21 17:03:52,706 - main - INFO - main_application: 954 - Запуск БД. Пользователь: Фриауф Т.В.
+2022-08-21 17:05:44,823 - main - INFO - main_application: 954 - Запуск БД. Пользователь: Фриауф Т.В.
+2022-08-21 17:06:48,635 - main - INFO - main_application: 955 - Запуск БД. Пользователь: Фриауф Т.В.
+2022-08-21 17:08:12,733 - main - INFO - main_application: 956 - Запуск БД. Пользователь: Фриауф Т.В.
+2022-08-21 17:09:48,121 - main - INFO - main_application: 957 - Запуск БД. Пользователь: Фриауф Т.В.
+2022-08-21 17:10:06,948 - main - INFO - main_application: 956 - Запуск БД. Пользователь: Фриауф Т.В.
+2022-08-21 17:11:34,605 - main - INFO - main_application: 954 - Запуск БД. Пользователь: Фриауф Т.В.
+2022-08-21 17:11:42,002 - main - INFO - message_logging: 917 - Фриауф Т.В.: Удален отчет. Имя отчета 'Заявки с адреса Аммермана 44'
+2022-08-21 17:11:44,772 - main - WARNING - message_logging: 925 - Фриауф Т.В.: Для удаления отчета выберите его название в списке.
+2022-08-21 17:58:51,063 - main - INFO - main_application: 989 - Запуск БД. Пользователь: Фриауф Т.В.
+2022-08-21 18:00:39,925 - main - INFO - main_application: 993 - Запуск БД. Пользователь: Фриауф Т.В.
+2022-08-21 18:01:39,809 - main - INFO - main_application: 993 - Запуск БД. Пользователь: Фриауф Т.В.
+2022-08-21 18:01:52,376 - main - INFO - main_application: 993 - Запуск БД. Пользователь: Фриауф Т.В.
+2022-08-21 18:02:43,706 - main - WARNING - message_logging: 964 - Фриауф Т.В.: Изменения в таблице не сохранены! Попробуйте снова.
+2022-08-21 18:03:26,505 - main - INFO - main_application: 995 - Запуск БД. Пользователь: Фриауф Т.В.
+2022-08-21 18:03:35,419 - main - INFO - message_logging: 958 - Фриауф Т.В.: Изменения в таблице 'dispatcher' сохранены
+2022-08-21 18:04:30,657 - main - INFO - message_logging: 958 - Фриауф Т.В.: Изменения в таблице 'dispatcher' сохранены
+2022-08-21 18:08:00,562 - main - INFO - main_application: 993 - Запуск БД. Пользователь: Фриауф Т.В.
+2022-08-21 18:08:54,590 - main - INFO - message_logging: 956 - Фриауф Т.В.: Изменения в таблице 'dispatcher' сохранены
+2022-08-21 18:09:45,948 - main - INFO - main_application: 993 - Запуск БД. Пользователь: Фриауфа Т.В.
+2022-08-21 18:10:01,906 - main - INFO - message_logging: 956 - Фриауфа Т.В.: Изменения в таблице 'dispatcher' сохранены
+2022-08-21 18:11:46,785 - main - INFO - main_application: 993 - Запуск БД. Пользователь: Фриауф Т.В.
+2022-08-21 18:14:04,295 - main - INFO - main_application: 994 - Запуск БД. Пользователь: Фриауф Т.В.
+2022-08-21 18:23:55,625 - main - INFO - main_application: 1022 - Запуск БД. Пользователь: Фриауф Т.В.
+2022-08-21 18:24:33,016 - main - INFO - main_application: 1022 - Запуск БД. Пользователь: Фриауф Т.В.
+2022-08-21 18:27:02,945 - main - INFO - main_application: 1022 - Запуск БД. Пользователь: Фриауф Т.В.
+2022-08-21 18:27:08,228 - main - WARNING - message_logging: 993 - Фриауф Т.В.: Введите фамилию и инициалы нового диспетчера.
+2022-08-21 18:27:22,565 - main - INFO - message_logging: 985 - Фриауф Т.В.: В базу данных добавлен новый диспетчер. Имя: 'Тестовый А.А.'. Статус активности: 'да'
+2022-08-21 18:27:38,698 - main - INFO - main_application: 1022 - Запуск БД. Пользователь: Фриауф Т.В.
+2022-08-21 18:28:15,447 - main - INFO - message_logging: 985 - Фриауф Т.В.: Изменения в таблице 'dispatcher' сохранены
+2022-08-21 18:31:54,217 - main - INFO - main_application: 1024 - Запуск БД. Пользователь: Беляева А.А.
+2022-08-21 18:32:08,516 - main - INFO - main_application: 1024 - Запуск БД. Пользователь: Новик О.А.
+2022-08-21 18:44:47,241 - main - INFO - main_application: 1087 - Запуск БД. Пользователь: Фриауф Т.В.
+2022-08-21 18:47:58,071 - main - INFO - main_application: 1092 - Запуск БД. Пользователь: Фриауф Т.В.
+2022-08-21 18:48:18,101 - main - INFO - message_logging: 1055 - Фриауф Т.В.: Изменения в таблице 'address' сохранены
+2022-08-21 18:49:00,316 - main - INFO - message_logging: 1055 - Фриауф Т.В.: Изменения в таблице 'address' сохранены
+2022-08-21 18:49:22,656 - main - INFO - message_logging: 1055 - Фриауф Т.В.: В базу данных добавлен новый адрес: 'Якорная пл. корп. В'
+2022-08-21 18:50:47,503 - main - INFO - main_application: 1094 - Запуск БД. Пользователь: Фриауф Т.В.
+2022-08-21 18:52:05,714 - main - INFO - main_application: 1092 - Запуск БД. Пользователь: Фриауф Т.В.
+2022-08-21 18:52:08,969 - main - WARNING - message_logging: 1063 - Фриауф Т.В.: Введите новый адрес (улицу можно подгрузить из списка 'Улицы').
+2022-08-21 18:52:13,883 - main - WARNING - message_logging: 1063 - Фриауф Т.В.: Введите новый адрес (улицу можно подгрузить из списка 'Улицы').
+2022-08-21 18:53:03,198 - main - INFO - main_application: 1092 - Запуск БД. Пользователь: Фриауф Т.В.
+2022-08-21 18:53:12,629 - main - INFO - message_logging: 1055 - Фриауф Т.В.: В базу данных добавлен новый адрес: 'Якорная пл. корп. В'
+2022-08-21 19:03:11,994 - main - INFO - main_application: 1158 - Запуск БД. Пользователь: Фриауф Т.В.
+2022-08-21 19:04:47,119 - main - INFO - main_application: 1158 - Запуск БД. Пользователь: Фриауф Т.В.
+2022-08-21 19:04:58,503 - main - INFO - message_logging: 1121 - Фриауф Т.В.: В базу данных добавлен новый шаблон обращения: 'Не вывозится мусор'
+2022-08-21 19:05:20,254 - main - INFO - main_application: 1158 - Запуск БД. Пользователь: Фриауф Т.В.
+2022-08-21 19:06:01,142 - main - INFO - main_application: 1158 - Запуск БД. Пользователь: Фриауф Т.В.
+2022-08-21 19:06:25,824 - main - INFO - message_logging: 1121 - Фриауф Т.В.: В базу данных добавлен новый шаблон обращения: 'Не убираются лестничные площадки'
+2022-08-21 19:21:51,495 - main - INFO - main_application: 1162 - Запуск БД. Пользователь: Фриауф Т.В.
+2022-08-21 19:22:14,827 - main - INFO - message_logging: 1125 - Фриауф Т.В.: В базу данных добавлен новый шаблон обращения: 'Не убирается двор'
+2022-08-21 19:25:41,550 - main - INFO - main_application: 1170 - Запуск БД. Пользователь: Фриауф Т.В.
+2022-08-21 19:26:41,065 - main - INFO - message_logging: 1133 - Фриауф Т.В.: Изменения в таблице 'pattern' сохранены
+2022-08-21 19:27:00,989 - main - INFO - message_logging: 1133 - Фриауф Т.В.: Изменения в таблице 'pattern' сохранены
+2022-08-21 19:40:07,169 - main - INFO - main_application: 1192 - Запуск БД. Пользователь: Иванова Л.П.
+2022-08-21 19:40:08,426 - main - ERROR - add_pattern_messages: 600 - Exception occurred
+Traceback (most recent call last):
+  File "E:\QT_python_DispatcherDatabase\main.py", line 595, in add_pattern_messages
+    pattern_list = connection.cursor().execute("SELECT pattern"
+sqlite3.OperationalError: no such column: building
+2022-08-21 19:43:40,226 - main - INFO - main_application: 1194 - Запуск БД. Пользователь: Иванова Л.П.
+2022-08-21 19:45:20,266 - main - INFO - main_application: 1195 - Запуск БД. Пользователь: Иванова Л.П.
+2022-08-21 19:46:37,384 - main - INFO - main_application: 1197 - Запуск БД. Пользователь: Иванова Л.П.
+2022-08-21 19:48:47,404 - main - INFO - main_application: 1196 - Запуск БД. Пользователь: Иванова Л.П.
+2022-08-21 19:49:13,416 - main - INFO - main_application: 1196 - Запуск БД. Пользователь: Иванова Л.П.
+2022-08-21 19:51:15,526 - main - INFO - main_application: 1196 - Запуск БД. Пользователь: Иванова Л.П.
+2022-08-21 23:08:58,029 - main - INFO - main_application: 1203 - Запуск БД. Пользователь: Иванова Л.П.
+2022-08-21 23:09:40,889 - main - INFO - main_application: 1203 - Запуск БД. Пользователь: Иванова Л.П.
+2022-08-21 23:09:58,988 - main - INFO - main_application: 1203 - Запуск БД. Пользователь: Иванова Л.П.
+2022-08-21 23:16:31,034 - main - INFO - main_application: 1221 - Запуск БД. Пользователь: Иванова Л.П.
+2022-08-21 23:16:35,651 - main - INFO - message_logging: 1184 - Иванова Л.П.: Выполнено удаление шаблона.
+2022-08-21 23:19:28,830 - main - INFO - main_application: 1218 - Запуск БД. Пользователь: Иванова Л.П.
+2022-08-21 23:20:07,575 - main - INFO - message_logging: 1181 - Иванова Л.П.: В базу данных добавлен новый шаблон обращения: 'Не убирается двор'
+2022-08-21 23:25:24,168 - main - INFO - main_application: 1236 - Запуск БД. Пользователь: Иванова Л.П.
+2022-08-21 23:25:44,362 - main - INFO - main_application: 1236 - Запуск БД. Пользователь: Иванова Л.П.
+2022-08-21 23:26:26,878 - main - INFO - message_logging: 1199 - Иванова Л.П.: В базу данных добавлен новый адрес: 'Адмирала Грейга ул. '
+2022-08-21 23:29:10,921 - main - INFO - main_application: 1236 - Запуск БД. Пользователь: Иванова Л.П.
+2022-08-21 23:30:06,631 - main - INFO - main_application: 1236 - Запуск БД. Пользователь: Иванова Л.П.
+2022-08-21 23:31:33,855 - main - INFO - main_application: 1236 - Запуск БД. Пользователь: Иванова Л.П.
+2022-08-21 23:34:56,097 - main - INFO - main_application: 1233 - Запуск БД. Пользователь: Иванова Л.П.
+2022-08-21 23:48:56,521 - main - INFO - main_application: 1249 - Запуск БД. Пользователь: Иванова Л.П.
+2022-08-21 23:49:38,758 - main - INFO - main_application: 1249 - Запуск БД. Пользователь: Иванова Л.П.
+2022-08-21 23:52:06,883 - main - INFO - main_application: 1249 - Запуск БД. Пользователь: Иванова Л.П.
+2022-08-21 23:53:14,603 - main - INFO - main_application: 1249 - Запуск БД. Пользователь: Иванова Л.П.
+2022-08-21 23:54:13,279 - main - INFO - main_application: 1248 - Запуск БД. Пользователь: Иванова Л.П.
+2022-08-21 23:54:59,709 - main - INFO - main_application: 1248 - Запуск БД. Пользователь: Беляева А.А.
+2022-08-21 23:55:25,265 - main - INFO - main_application: 1248 - Запуск БД. Пользователь: Иванова Л.П.
+2022-08-21 23:58:53,168 - main - INFO - main_application: 1249 - Запуск БД. Пользователь: Иванова Л.П.
+2022-08-22 00:00:26,632 - main - INFO - main_application: 1249 - Запуск БД. Пользователь: Иванова Л.П.
+2022-08-22 00:03:20,910 - main - INFO - main_application: 1248 - Запуск БД. Пользователь: Иванова Л.П.
+2022-08-22 00:04:23,256 - main - INFO - main_application: 1248 - Запуск БД. Пользователь: Иванова Л.П.
+2022-08-22 00:05:41,462 - main - INFO - main_application: 1248 - Запуск БД. Пользователь: Иванова Л.П.
+2022-08-22 00:06:08,898 - main - INFO - main_application: 1248 - Запуск БД. Пользователь: Иванова Л.П.
+2022-08-22 00:06:18,171 - main - INFO - main_application: 1248 - Запуск БД. Пользователь: Иванова Л.П.
+2022-08-22 00:07:42,765 - main - INFO - main_application: 1248 - Запуск БД. Пользователь: Иванова Л.П.
+2022-08-22 00:08:11,342 - main - INFO - main_application: 1248 - Запуск БД. Пользователь: Беляева А.А.
+2022-08-22 00:10:14,671 - main - INFO - main_application: 1248 - Запуск БД. Пользователь: Беляева А.А.
+2022-08-22 00:10:58,989 - main - INFO - main_application: 1249 - Запуск БД. Пользователь: Беляева А.А.
+2022-08-22 00:20:35,638 - main - INFO - main_application: 1265 - Запуск БД. Пользователь: Иванова Л.П.
+2022-08-22 00:20:45,916 - main - ERROR - setting_dispatcher_save: 1201 - Exception occurred
+Traceback (most recent call last):
+  File "E:\QT_python_DispatcherDatabase\main.py", line 1194, in setting_dispatcher_save
+    connection.cursor().execute(
+sqlite3.OperationalError: near "WHERE": syntax error
+2022-08-22 00:20:45,916 - main - WARNING - message_logging: 1236 - Иванова Л.П.: Не удалось сохранить настройки
+2022-08-22 00:21:38,436 - main - INFO - main_application: 1265 - Запуск БД. Пользователь: Иванова Л.П.
+2022-08-22 00:21:46,997 - main - ERROR - setting_dispatcher_save: 1201 - Exception occurred
+Traceback (most recent call last):
+  File "E:\QT_python_DispatcherDatabase\main.py", line 1194, in setting_dispatcher_save
+    connection.cursor().execute(
+sqlite3.OperationalError: near "WHERE": syntax error
+2022-08-22 00:21:46,997 - main - WARNING - message_logging: 1236 - Иванова Л.П.: Не удалось сохранить настройки
+2022-08-22 00:25:35,004 - main - INFO - main_application: 1267 - Запуск БД. Пользователь: Иванова Л.П.
+2022-08-22 00:25:44,798 - main - INFO - message_logging: 1230 - Иванова Л.П.: Настройки сохранены.
+2022-08-22 00:25:52,776 - main - INFO - main_application: 1267 - Запуск БД. Пользователь: Иванова Л.П.
+2022-08-22 00:26:17,496 - main - INFO - main_application: 1264 - Запуск БД. Пользователь: Беляева А.А.
+2022-08-22 00:38:18,745 - main - INFO - main_application: 1280 - Запуск БД. Пользователь: Беляева А.А.
+2022-08-22 00:40:53,391 - main - INFO - main_application: 1279 - Запуск БД. Пользователь: Беляева А.А.
+2022-08-22 00:47:55,444 - main - INFO - main_application: 1280 - Запуск БД. Пользователь: Беляева А.А.
+2022-08-22 00:48:19,518 - main - INFO - main_application: 1280 - Запуск БД. Пользователь: Беляева А.А.
+2022-08-22 00:49:43,976 - main - INFO - main_application: 1277 - Запуск БД. Пользователь: Беляева А.А.
+2022-08-22 00:50:33,974 - main - INFO - main_application: 1277 - Запуск БД. Пользователь: Беляева А.А.
+2022-08-22 00:53:56,446 - main - INFO - main_application: 1278 - Запуск БД. Пользователь: Беляева А.А.
+2022-08-22 00:54:26,700 - main - INFO - main_application: 1278 - Запуск БД. Пользователь: Беляева А.А.
+2022-08-22 00:55:16,258 - main - INFO - main_application: 1278 - Запуск БД. Пользователь: Беляева А.А.
+2022-08-22 01:16:26,412 - main - INFO - main_application: 1306 - Запуск БД. Пользователь: Беляева А.А.
+2022-08-22 01:16:30,572 - main - INFO - message_logging: 1269 - Беляева А.А.: Архив базы данных успешно создан.
+2022-08-22 01:21:35,325 - main - INFO - main_application: 1306 - Запуск БД. Пользователь: Иванова Л.П.
+2022-08-22 01:21:43,423 - main - INFO - message_logging: 1269 - Иванова Л.П.: Архив базы данных успешно создан.
+2022-08-22 01:21:51,508 - main - INFO - main_application: 1306 - Запуск БД. Пользователь: Мазурова Е.А.
+2022-08-22 01:21:54,415 - main - INFO - message_logging: 1269 - Мазурова Е.А.: Архив базы данных успешно создан.
+2022-08-22 01:28:34,004 - main - INFO - main_application: 1306 - Запуск БД. Пользователь: Беляева А.А.
+2022-08-22 01:31:02,081 - main - INFO - main_application: 1306 - Запуск БД. Пользователь: Беляева А.А.
+2022-08-22 02:58:22,409 - main - INFO - main_application: 1332 - Запуск БД. Пользователь: Беляева А.А.
+2022-08-22 03:00:00,707 - main - INFO - main_application: 1332 - Запуск БД. Пользователь: Иванова Л.П.
+2022-08-22 03:01:21,647 - main - INFO - message_logging: 1295 - Иванова Л.П.: Новая запись в БД. Дата: 2022-08-22 03:00, Заявитель (Последний Герой),Обращение (Тестовое обраще...)
+2022-08-22 03:02:34,712 - main - INFO - message_logging: 1295 - Иванова Л.П.: Сохранен новый отчет. Имя отчета 'Тестовый отчет неисполненных заявок'
+2022-08-22 03:04:46,484 - main - INFO - main_application: 1332 - Запуск БД. Пользователь: Беляева А.А.
+2022-08-24 23:26:19,585 - main - INFO - main_application: 1337 - Запуск БД. Пользователь: Новик О.А.
+2022-08-24 23:27:05,891 - main - INFO - main_application: 1337 - Запуск БД. Пользователь: Новик О.А.
+2022-08-24 23:34:03,893 - main - INFO - main_application: 1344 - Запуск БД. Пользователь: Новик О.А.
+2022-08-24 23:38:51,201 - main - INFO - main_application: 1345 - Запуск БД. Пользователь: Новик О.А.
+2022-08-24 23:40:59,272 - main - INFO - main_application: 1345 - Запуск БД. Пользователь: Новик О.А.
+2022-08-24 23:43:05,929 - main - INFO - main_application: 1345 - Запуск БД. Пользователь: Новик О.А.
+2022-08-24 23:46:45,045 - main - INFO - main_application: 1346 - Запуск БД. Пользователь: Новик О.А.
+2022-08-24 23:47:50,284 - main - INFO - main_application: 1346 - Запуск БД. Пользователь: Новик О.А.
+2022-08-24 23:48:11,594 - main - INFO - main_application: 1346 - Запуск БД. Пользователь: Новик О.А.
+2022-08-24 23:52:20,668 - main - INFO - main_application: 1348 - Запуск БД. Пользователь: Новик О.А.
+2022-08-24 23:53:07,665 - main - INFO - main_application: 1348 - Запуск БД. Пользователь: Новик О.А.
+2022-08-24 23:53:41,423 - main - INFO - main_application: 1348 - Запуск БД. Пользователь: Новик О.А.
+2022-08-24 23:55:02,177 - main - INFO - main_application: 1348 - Запуск БД. Пользователь: Новик О.А.
+2022-08-24 23:56:39,210 - main - INFO - main_application: 1348 - Запуск БД. Пользователь: Новик О.А.
+2022-08-24 23:57:55,159 - main - INFO - main_application: 1348 - Запуск БД. Пользователь: Новик О.А.
+2022-08-24 23:59:52,293 - main - INFO - main_application: 1349 - Запуск БД. Пользователь: Новик О.А.
+2022-08-25 00:02:57,024 - main - INFO - main_application: 1364 - Запуск БД. Пользователь: Новик О.А.
+2022-08-25 00:12:41,465 - main - INFO - main_application: 1370 - Запуск БД. Пользователь: Новик О.А.
+2022-08-25 00:14:16,567 - main - INFO - main_application: 1374 - Запуск БД. Пользователь: Новик О.А.
+2022-08-25 00:29:00,402 - main - INFO - main_application: 1377 - Запуск БД. Пользователь: Новик О.А.
+2022-08-25 00:30:20,434 - main - INFO - main_application: 1377 - Запуск БД. Пользователь: Новик О.А.
+2022-08-25 00:31:10,191 - main - INFO - main_application: 1377 - Запуск БД. Пользователь: Новик О.А.
+2022-08-25 00:32:17,102 - main - INFO - main_application: 1377 - Запуск БД. Пользователь: Новик О.А.
+2022-08-25 00:32:59,301 - main - INFO - main_application: 1377 - Запуск БД. Пользователь: Новик О.А.
+2022-08-25 00:34:29,750 - main - INFO - main_application: 1377 - Запуск БД. Пользователь: Новик О.А.
+2022-08-25 00:38:36,409 - main - INFO - main_application: 1386 - Запуск БД. Пользователь: Новик О.А.
+2022-08-25 00:59:15,784 - main - INFO - main_application: 1388 - Запуск БД. Пользователь: Новик О.А.
+2022-08-25 01:03:17,087 - main - INFO - main_application: 1389 - Запуск БД. Пользователь: Новик О.А.
+2022-08-25 01:04:10,500 - main - INFO - main_application: 1389 - Запуск БД. Пользователь: Новик О.А.
+2022-08-25 01:06:42,311 - main - INFO - main_application: 1390 - Запуск БД. Пользователь: Новик О.А.
+2022-08-25 01:08:39,029 - main - INFO - main_application: 1390 - Запуск БД. Пользователь: Новик О.А.
+2022-08-25 01:12:02,691 - main - INFO - main_application: 1390 - Запуск БД. Пользователь: Новик О.А.
+2022-08-25 01:12:41,352 - main - INFO - main_application: 1389 - Запуск БД. Пользователь: Новик О.А.
+2022-08-25 01:15:01,177 - main - INFO - main_application: 1390 - Запуск БД. Пользователь: Новик О.А.
+2022-08-25 01:15:20,560 - main - INFO - main_application: 1390 - Запуск БД. Пользователь: Новик О.А.
+2022-08-25 01:16:01,160 - main - INFO - main_application: 1390 - Запуск БД. Пользователь: Новик О.А.
+2022-08-25 01:17:14,150 - main - INFO - main_application: 1391 - Запуск БД. Пользователь: Новик О.А.
+2022-08-25 01:17:45,150 - main - INFO - main_application: 1391 - Запуск БД. Пользователь: Новик О.А.
+2022-08-25 01:18:58,967 - main - INFO - main_application: 1391 - Запуск БД. Пользователь: Новик О.А.
+2022-08-25 01:22:06,731 - main - INFO - main_application: 1391 - Запуск БД. Пользователь: Новик О.А.
+2022-08-25 01:24:25,502 - main - INFO - main_application: 1393 - Запуск БД. Пользователь: Новик О.А.
+2022-08-25 01:25:02,307 - main - INFO - main_application: 1393 - Запуск БД. Пользователь: Новик О.А.
+2022-08-25 01:34:34,765 - main - INFO - main_application: 1394 - Запуск БД. Пользователь: Новик О.А.
+2022-08-25 01:38:39,371 - main - INFO - main_application: 1392 - Запуск БД. Пользователь: Новик О.А.
+2022-08-25 01:38:43,921 - main - ERROR - message_logging: 1359 - Новик О.А.: Ошибка доступа к файлу и/или к каталогу.
+2022-08-25 01:40:50,121 - main - INFO - main_application: 1394 - Запуск БД. Пользователь: Новик О.А.
+2022-08-25 01:44:18,166 - main - INFO - main_application: 1396 - Запуск БД. Пользователь: Новик О.А.
+2022-08-25 02:59:40,735 - main - INFO - main_application: 1414 - Запуск БД. Пользователь: Новик О.А.
+2022-08-25 03:02:40,142 - main - INFO - main_application: 1416 - Запуск БД. Пользователь: Новик О.А.
+2022-08-25 03:04:02,893 - main - INFO - main_application: 1413 - Запуск БД. Пользователь: Новик О.А.
+2022-08-25 03:04:11,598 - plugin - DEBUG - dynamic_load_library: 305 - import pyexcel_ods.odsw.ODSWriter
+2022-08-25 03:04:11,655 - plugin - DEBUG - load_me_now: 289 - load <class 'pyexcel_ods.odsw.ODSWriter'> now for 'file-ods'
+2022-08-25 03:05:18,254 - main - INFO - main_application: 1413 - Запуск БД. Пользователь: Новик О.А.
+2022-08-25 03:05:27,145 - plugin - DEBUG - dynamic_load_library: 305 - import pyexcel_ods.odsw.ODSWriter
+2022-08-25 03:05:27,192 - plugin - DEBUG - load_me_now: 289 - load <class 'pyexcel_ods.odsw.ODSWriter'> now for 'file-ods'
+2022-08-25 03:06:37,744 - main - INFO - main_application: 1413 - Запуск БД. Пользователь: Новик О.А.
+2022-08-25 03:06:43,546 - plugin - DEBUG - dynamic_load_library: 305 - import pyexcel_ods.odsw.ODSWriter
+2022-08-25 03:06:43,593 - plugin - DEBUG - load_me_now: 289 - load <class 'pyexcel_ods.odsw.ODSWriter'> now for 'file-ods'
+2022-08-25 03:07:36,948 - main - INFO - main_application: 1413 - Запуск БД. Пользователь: Новик О.А.
+2022-08-25 03:07:42,042 - plugin - DEBUG - dynamic_load_library: 305 - import pyexcel_ods.odsw.ODSWriter
+2022-08-25 03:07:42,094 - plugin - DEBUG - load_me_now: 289 - load <class 'pyexcel_ods.odsw.ODSWriter'> now for 'file-ods'
+2022-08-25 03:08:06,434 - main - INFO - main_application: 1413 - Запуск БД. Пользователь: Новик О.А.
+2022-08-25 03:08:11,296 - plugin - DEBUG - dynamic_load_library: 305 - import pyexcel_ods.odsw.ODSWriter
+2022-08-25 03:08:11,346 - plugin - DEBUG - load_me_now: 289 - load <class 'pyexcel_ods.odsw.ODSWriter'> now for 'file-ods'
+2022-08-25 03:08:41,704 - main - INFO - main_application: 1413 - Запуск БД. Пользователь: Новик О.А.
+2022-08-25 03:08:46,565 - plugin - DEBUG - dynamic_load_library: 305 - import pyexcel_ods.odsw.ODSWriter
+2022-08-25 03:08:46,620 - plugin - DEBUG - load_me_now: 289 - load <class 'pyexcel_ods.odsw.ODSWriter'> now for 'file-ods'
+2022-08-25 03:09:30,861 - main - INFO - main_application: 1413 - Запуск БД. Пользователь: Новик О.А.
+2022-08-25 03:09:35,466 - plugin - DEBUG - dynamic_load_library: 305 - import pyexcel_ods.odsw.ODSWriter
+2022-08-25 03:09:35,521 - plugin - DEBUG - load_me_now: 289 - load <class 'pyexcel_ods.odsw.ODSWriter'> now for 'file-ods'
+2022-08-25 03:10:13,775 - main - INFO - main_application: 1413 - Запуск БД. Пользователь: Новик О.А.
+2022-08-25 03:10:19,096 - plugin - DEBUG - dynamic_load_library: 305 - import pyexcel_ods.odsw.ODSWriter
+2022-08-25 03:10:19,146 - plugin - DEBUG - load_me_now: 289 - load <class 'pyexcel_ods.odsw.ODSWriter'> now for 'file-ods'
+2022-08-25 03:11:15,951 - main - INFO - main_application: 1413 - Запуск БД. Пользователь: Новик О.А.
+2022-08-25 03:11:21,190 - plugin - DEBUG - dynamic_load_library: 305 - import pyexcel_ods.odsw.ODSWriter
+2022-08-25 03:11:21,245 - plugin - DEBUG - load_me_now: 289 - load <class 'pyexcel_ods.odsw.ODSWriter'> now for 'file-ods'
+2022-08-25 03:12:36,020 - main - INFO - main_application: 1413 - Запуск БД. Пользователь: Новик О.А.
+2022-08-25 03:12:40,990 - plugin - DEBUG - dynamic_load_library: 305 - import pyexcel_ods.odsw.ODSWriter
+2022-08-25 03:12:41,040 - plugin - DEBUG - load_me_now: 289 - load <class 'pyexcel_ods.odsw.ODSWriter'> now for 'file-ods'
+2022-08-25 03:15:17,879 - main - INFO - main_application: 1428 - Запуск БД. Пользователь: Новик О.А.
+2022-08-25 03:15:36,818 - plugin - DEBUG - dynamic_load_library: 305 - import pyexcel_ods.odsw.ODSWriter
+2022-08-25 03:15:36,865 - plugin - DEBUG - load_me_now: 289 - load <class 'pyexcel_ods.odsw.ODSWriter'> now for 'file-ods'
+2022-08-25 03:16:47,273 - main - INFO - main_application: 1428 - Запуск БД. Пользователь: Новик О.А.
+2022-08-25 03:16:53,161 - plugin - DEBUG - dynamic_load_library: 305 - import pyexcel_ods.odsw.ODSWriter
+2022-08-25 03:16:53,216 - plugin - DEBUG - load_me_now: 289 - load <class 'pyexcel_ods.odsw.ODSWriter'> now for 'file-ods'
+2022-08-25 03:22:17,857 - main - INFO - main_application: 1433 - Запуск БД. Пользователь: Новик О.А.
+2022-08-25 03:22:25,329 - plugin - DEBUG - dynamic_load_library: 305 - import pyexcel_ods.odsw.ODSWriter
+2022-08-25 03:22:25,390 - plugin - DEBUG - load_me_now: 289 - load <class 'pyexcel_ods.odsw.ODSWriter'> now for 'file-ods'
+2022-08-25 03:22:25,409 - main - INFO - message_logging: 1396 - Новик О.А.: Отчет сформирован. Имя/путь: E:/QT_python_DispatcherDatabase/Reports/report_test_1.ods
+2022-08-25 03:23:36,330 - main - INFO - main_application: 1421 - Запуск БД. Пользователь: Новик О.А.
+2022-08-25 03:23:54,007 - main - INFO - main_application: 1419 - Запуск БД. Пользователь: Новик О.А.
+2022-08-25 03:24:22,477 - main - ERROR - message_logging: 1386 - Новик О.А.: Ошибка доступа к файлу и/или к каталогу при выгрузке отчета в .xlsx
+2022-08-25 03:24:52,392 - main - INFO - main_application: 1420 - Запуск БД. Пользователь: Беляева А.А.
+2022-08-25 03:24:55,315 - main - ERROR - message_logging: 1387 - Беляева А.А.: Ошибка доступа к файлу и/или к каталогу при выгрузке отчета в .xlsx
+2022-08-25 03:25:42,215 - main - INFO - main_application: 1423 - Запуск БД. Пользователь: Новик О.А.
+2022-08-25 03:25:53,100 - plugin - DEBUG - dynamic_load_library: 305 - import pyexcel_ods.odsw.ODSWriter
+2022-08-25 03:25:53,160 - plugin - DEBUG - load_me_now: 289 - load <class 'pyexcel_ods.odsw.ODSWriter'> now for 'file-ods'
+2022-08-25 03:25:53,170 - main - INFO - message_logging: 1386 - Новик О.А.: Отчет сформирован. Имя/путь: E:/QT_python_DispatcherDatabase/Reports/report_test_1.ods
+2022-08-25 03:37:02,580 - main - INFO - main_application: 1424 - Запуск БД. Пользователь: Новик О.А.
+2022-08-25 03:38:33,054 - main - ERROR - add_data_input: 683 - Exception occurred
+Traceback (most recent call last):
+  File "E:\QT_python_DispatcherDatabase\main.py", line 662, in add_data_input
+    connection.cursor().execute(
+sqlite3.OperationalError: near "3": syntax error
+2022-08-25 03:38:33,066 - main - INFO - message_logging: 1387 - Новик О.А.: Новая запись в БД. Дата: 2022-08-25 03:37, Заявитель (Иванов),Обращение (Итоговый тест
+"...)
+2022-08-25 03:41:40,853 - main - INFO - main_application: 1425 - Запуск БД. Пользователь: Беляева А.А.
+2022-08-25 03:45:27,683 - main - INFO - main_application: 1428 - Запуск БД. Пользователь: Новик О.А.
+2022-08-25 03:47:06,420 - main - ERROR - add_data_input: 683 - Exception occurred
+Traceback (most recent call last):
+  File "E:\QT_python_DispatcherDatabase\main.py", line 662, in add_data_input
+    connection.cursor().execute(
+sqlite3.OperationalError: near "Тестирование": syntax error
+2022-08-25 03:47:06,427 - main - INFO - message_logging: 1391 - Новик О.А.: Новая запись в БД. Дата: 2022-08-25 03:45, Заявитель (Иваанов "),Обращение ('Тестирование н...)
+2022-08-25 03:52:50,769 - main - INFO - main_application: 1429 - Запуск БД. Пользователь: Беляева А.А.
+2022-08-25 03:52:59,111 - main - INFO - main_application: 1429 - Запуск БД. Пользователь: Новик О.А.
+2022-08-25 03:54:09,922 - main - INFO - message_logging: 1392 - Новик О.А.: Новая запись в БД. Дата: 2022-08-25 03:52, Заявитель (Петров =),Обращение (Тестируем налич...)
+2022-08-25 03:57:14,069 - main - INFO - main_application: 1428 - Запуск БД. Пользователь: Новик О.А.
+2022-08-26 01:05:30,699 - main - INFO - main_application: 1428 - Запуск БД. Пользователь: Беляева А.А.

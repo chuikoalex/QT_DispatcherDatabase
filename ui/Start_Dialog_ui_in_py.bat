@@ -1,0 +1,1 @@
+E:\QT_python_DispatcherDatabase\venv\Scripts\pyuic5.exe Start_Dialog.ui -o start_ui_dialog.py

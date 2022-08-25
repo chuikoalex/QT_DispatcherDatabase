@@ -1,0 +1,1 @@
+E:\QT_python_DispatcherDatabase\venv\Scripts\pyuic5.exe Dispatcher.ui -o ui_dispatcher.py
