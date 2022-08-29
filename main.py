@@ -109,6 +109,19 @@ def dispatchers_or_address_from_id(path_db, field_id, flag='dispatchers'):
         return result[0][0]
 
 
+def text_clearing_characters(text, type_text='text'):
+    """Функция удаления лишних символов из текста
+
+    Функция используется при формировании данных для внесения в БД. Имя диспетчера, адрес, название отчета"""
+
+    clearing_txt = ''
+    allowed_characters = '.-/ ' if type_text != 'text' else '№.,-+/*=?() '
+    for symbol in text:
+        if symbol.isalpha() or symbol.isdigit() or (symbol in allowed_characters):
+            clearing_txt += symbol
+    return clearing_txt
+
+
 class StartWindow(QDialog, start_ui_dialog.Ui_Dialog):
     """Стартовое окно программы.
 
@@ -649,8 +662,8 @@ class MainWindow(QMainWindow, ui_dispatcher.Ui_MainWindow):
 
         Функция записывает новые данные / обновляет старые ('Добавить' / 'Изменить')"""
 
-        input_data = self.create_data_list()
-        if len(input_data) > 0:
+        input_data = self.create_data_list() if self.create_data_list() else []
+        if input_data:
             try:
                 connection = sqlite3.connect(self.path_db)
             except sqlite3.OperationalError:
@@ -729,10 +742,10 @@ class MainWindow(QMainWindow, ui_dispatcher.Ui_MainWindow):
         data_list = [self.data_date.date().toPyDate().strftime('%Y-%m-%d'),
                      self.data_time.time().toPyTime().strftime('%H:%M')]
 
-        text = self.data_address.currentText()
+        address_building = self.data_address.currentText()
         if (self.data_address.currentText(),) not in self.address:
             self.data_address.setCurrentIndex(0)
-            self.message_logging(f'Адрес {text} не существует!')
+            self.message_logging(f'Адрес {address_building} не существует!')
             return False
         else:
             data_list.append(id_dispatchers_or_address(self.path_db, self.data_address.currentText(), 'address'))
@@ -907,9 +920,10 @@ class MainWindow(QMainWindow, ui_dispatcher.Ui_MainWindow):
         в основную таблицу выведены данные"""
 
         report_date = datetime.datetime.now().date().strftime('%Y-%m-%d')
-        report_name = self.report_name.text()
-        if len(report_name) < 6:
-            self.message_logging("При сохранении имя отчета должно быть не менее шести символов.")
+        report_name = text_clearing_characters(self.report_name.text(), 'text')
+        if len(report_name) < 5:
+            self.message_logging("Имя отчета должно быть не менее пяти символов. Запрещенные символы удаляются.")
+            self.report_name.setText(report_name)
             return False
         report_select = '|'.join([str(data) for data in self.start_filtering()])
         report_save_data = [report_date, report_name, report_select]
@@ -936,6 +950,7 @@ class MainWindow(QMainWindow, ui_dispatcher.Ui_MainWindow):
                 self.message_logging(
                     f"Сохранен новый отчет. "
                     f"Имя отчета '{report_save_data[1]}'", 'info')
+                self.report_name.clear()
                 self.create_dbmodel_report()
                 self.create_table_report()
         return True
@@ -1065,10 +1080,10 @@ class MainWindow(QMainWindow, ui_dispatcher.Ui_MainWindow):
 
     @pyqtSlot()
     def conf_dispatcher_new(self):
-        dispatcher_new_name = self.conf_dispatcher_new_name.text()
+        dispatcher_new_name = text_clearing_characters(self.conf_dispatcher_new_name.text(), 'dispatcher')
         self.conf_dispatcher_new_name.clear()
-        if len(dispatcher_new_name) < 1:
-            self.message_logging("Введите фамилию и инициалы нового диспетчера.")
+        if len(dispatcher_new_name) < 4:
+            self.message_logging("Введите фамилию и инициалы нового диспетчера (не может быть короче 4 символов).")
             return False
         try:
             connection = sqlite3.connect(self.path_db)
@@ -1145,7 +1160,7 @@ class MainWindow(QMainWindow, ui_dispatcher.Ui_MainWindow):
 
     @pyqtSlot()
     def conf_address_new(self):
-        address_new_building = self.conf_address_new_building.text()
+        address_new_building = text_clearing_characters(self.conf_address_new_building.text(), 'address')
         self.conf_address_new_building.clear()
         if len(address_new_building) < 1:
             self.message_logging("Введите новый адрес (улицу можно подгрузить из списка 'Улицы').")
@@ -1265,7 +1280,7 @@ class MainWindow(QMainWindow, ui_dispatcher.Ui_MainWindow):
 
     @pyqtSlot()
     def conf_pattern_new(self):
-        pattern_new = self.conf_pattern_new_message.text()
+        pattern_new = text_clearing_characters(self.conf_pattern_new_message.text(), 'text')
         self.conf_pattern_new_message.clear()
         if len(pattern_new) < 1:
             self.message_logging("Введите шаблон обращения.")
@@ -1400,6 +1415,7 @@ class MainWindow(QMainWindow, ui_dispatcher.Ui_MainWindow):
         self.logging.moveCursor(QTextCursor.End)
         self.logging.insertPlainText(f"{message}\n")
         self.single_timer.singleShot(300, self.logging_background_white)
+        return True
 
     @pyqtSlot()
     def logging_background_white(self):
