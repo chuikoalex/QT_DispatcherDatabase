@@ -211,19 +211,19 @@ class MainWindow(QMainWindow, ui_dispatcher.Ui_MainWindow):
         self.dbmodel_address = QSqlTableModel(self)
         self.dbmodel_pattern = QSqlTableModel(self)
 
-        # Связываем модели и таблицы для их отображения
-        self.table_database.setModel(self.dbmodel)
-        self.report_table.setModel(self.dbmodel_report)
-        self.conf_dispatcher_table.setModel(self.dbmodel_dispatcher)
-        self.conf_address_table.setModel(self.dbmodel_address)
-        self.conf_pattern_table.setModel(self.dbmodel_pattern)
-
         # Строим (настраиваем) модели
         self.create_dbmodel()
         self.create_dbmodel_report()
         self.create_dbmodel_dispatcher()
         self.create_dbmodel_address()
         self.create_dbmodel_pattern()
+
+        # Связываем модели и таблицы для их отображения
+        self.table_database.setModel(self.dbmodel)
+        self.report_table.setModel(self.dbmodel_report)
+        self.conf_dispatcher_table.setModel(self.dbmodel_dispatcher)
+        self.conf_address_table.setModel(self.dbmodel_address)
+        self.conf_pattern_table.setModel(self.dbmodel_pattern)
 
         # Фильтруем данные в модели по умолчанию (здесь для первого вывода таблицы при старте)
         self.filtering_dbmodel(self.set_filter_default())
@@ -298,7 +298,8 @@ class MainWindow(QMainWindow, ui_dispatcher.Ui_MainWindow):
         id_setting = id_dispatchers_or_address(self.path_db, DISPATCHER)
         try:
             connection = sqlite3.connect(self.path_db)
-            result_list = connection.cursor().execute(f"SELECT * FROM setting WHERE id={id_setting}").fetchall()
+            result_list = connection.cursor().execute(f"SELECT * FROM setting "
+                                                      f"WHERE id_dispatcher={id_setting}").fetchall()
         except sqlite3.OperationalError:
             logging.exception("Exception occurred")
             return False
@@ -325,18 +326,20 @@ class MainWindow(QMainWindow, ui_dispatcher.Ui_MainWindow):
 
     # --------- модели БД -------------------------
     def create_dbmodel(self):
-        """Функция построения основной модели базы данных. Таблица с заявками"""
+        """Функция построения основной модели базы данных (таблица с заявками)"""
 
         self.db.open()
+
         self.dbmodel.setTable('application')
+
+        self.dbmodel.select()
+        while self.dbmodel.canFetchMore():
+            self.dbmodel.fetchMore()
+
         self.dbmodel.setRelation(3, QSqlRelation('address', 'id', 'building'))
         self.dbmodel.setRelation(11, QSqlRelation('dispatcher', 'id', 'name'))
         self.dbmodel.setSort(1, Qt.AscendingOrder)
-        if self.dbmodel.select():
-            while self.dbmodel.canFetchMore():
-                self.dbmodel.fetchMore()
-        else:
-            self.message_logging(f"Сбой работы с БД при формировании основной модели.", 'error')
+
         columns = ['№ п/п',
                    'Дата',
                    'Время',
@@ -428,10 +431,13 @@ class MainWindow(QMainWindow, ui_dispatcher.Ui_MainWindow):
         self.dbmodel.setFilter(f"(date BETWEEN '{date_start}' AND '{date_finish}')"
                                f" AND (address{address})"
                                f" AND (consumer_name LIKE '{consumer_name}')"
-                               f" AND (consumer_phone LIKE '{consumer_phone}')"
+                               f" AND (consumer_phone LIKE '{consumer_phone}' OR consumer_phone is NULL)"
                                f" AND (id_dispatcher{dispatcher})"
                                f" AND ({execution})"
                                )
+        while self.dbmodel.canFetchMore():
+            self.dbmodel.fetchMore()
+
         self.db.close()
         self.message_logging(f"Фильтру соответствует {self.dbmodel.rowCount()} строк данных. ", 'info', False)
 
@@ -447,19 +453,20 @@ class MainWindow(QMainWindow, ui_dispatcher.Ui_MainWindow):
         self.table_database.verticalHeader().hide()
         self.table_database.horizontalHeader().setSectionResizeMode(9, 1)
         self.table_database.horizontalHeader().setSectionResizeMode(13, 1)
-        self.table_database.setColumnWidth(0, 50)
-        self.table_database.setColumnWidth(1, 70)
-        self.table_database.setColumnWidth(2, 40)
-        self.table_database.setColumnWidth(3, 150)
-        self.table_database.setColumnWidth(4, 40)
-        self.table_database.setColumnWidth(5, 40)
+        self.table_database.setColumnWidth(0, 40)
+        self.table_database.setColumnWidth(1, 80)
+        self.table_database.setColumnWidth(2, 50)
+        self.table_database.setColumnWidth(3, 170)
+        self.table_database.setColumnWidth(4, 20)
+        self.table_database.setColumnWidth(5, 20)
         self.table_database.setColumnWidth(6, 30)
         self.table_database.setColumnWidth(7, 120)
-        self.table_database.setColumnWidth(8, 80)
-        self.table_database.setColumnWidth(11, 90)
+        self.table_database.setColumnWidth(8, 90)
+        self.table_database.setColumnWidth(11, 100)
         self.table_database.scrollToBottom()
 
         self.table_database_horizontal_size()
+        self.table_database_font_size()
 
     @pyqtSlot()
     def table_database_horizontal_size(self):
@@ -804,7 +811,7 @@ class MainWindow(QMainWindow, ui_dispatcher.Ui_MainWindow):
 
     @pyqtSlot()
     def report_excel(self):
-        """Функция выгружает отчет в формат XLSX"""
+        """Функция выгружает отчет в формат .XLSX"""
 
         name_report = QFileDialog.getSaveFileName(parent=self,
                                                   caption='Сохранение отчета',
@@ -871,7 +878,7 @@ class MainWindow(QMainWindow, ui_dispatcher.Ui_MainWindow):
 
     @pyqtSlot()
     def report_openoffice(self):
-        """Функция выгружает отчет в формат ODS"""
+        """Функция выгружает отчет в формат .ODS"""
 
         name_report = QFileDialog.getSaveFileName(parent=self,
                                                   caption='Сохранение отчета в формате .ods',
@@ -1098,10 +1105,16 @@ class MainWindow(QMainWindow, ui_dispatcher.Ui_MainWindow):
                     f"VALUES('{dispatcher_new_name}', "
                     f"'да')")
                 connection.commit()
+                id_new_dispatchers = id_dispatchers_or_address(self.path_db, dispatcher_new_name, 'dispatchers')
+                connection.cursor().execute(
+                    f"INSERT INTO setting(id_dispatcher, color_text) "
+                    f"VALUES('{id_new_dispatchers}', "
+                    f"'000000')")
+                connection.commit()
                 connection.close()
             except sqlite3.OperationalError:
                 logging.exception("Exception occurred")
-                self.message_logging(f"Ошибка сохранения отчета! Повторите попытку.", 'error')
+                self.message_logging(f"Ошибка добавления диспетчера! Повторите попытку.", 'error')
                 return False
             finally:
                 QMessageBox.information(self,
@@ -1180,7 +1193,7 @@ class MainWindow(QMainWindow, ui_dispatcher.Ui_MainWindow):
                 connection.close()
             except sqlite3.OperationalError:
                 logging.exception("Exception occurred")
-                self.message_logging(f"Ошибка сохранения отчета! Повторите попытку.", 'error')
+                self.message_logging(f"Ошибка сохранения адреса! Повторите попытку.", 'error')
                 return False
             finally:
                 QMessageBox.information(self,
@@ -1300,7 +1313,7 @@ class MainWindow(QMainWindow, ui_dispatcher.Ui_MainWindow):
                 connection.close()
             except sqlite3.OperationalError:
                 logging.exception("Exception occurred")
-                self.message_logging(f"Ошибка сохранения отчета! Повторите попытку.", 'error')
+                self.message_logging(f"Ошибка сохранения шаблона! Повторите попытку.", 'error')
                 return False
             finally:
                 QMessageBox.information(self,
@@ -1372,7 +1385,7 @@ class MainWindow(QMainWindow, ui_dispatcher.Ui_MainWindow):
             connection.cursor().execute(
                 f"UPDATE setting SET "
                 f"color_text='{self.setting_dict['color_text'][1:]}' "
-                f"WHERE id='{self.setting_dict['id']}';")
+                f"WHERE id_dispatcher='{self.setting_dict['id_dispatcher']}';")
             connection.commit()
             connection.close()
         except sqlite3.OperationalError:
