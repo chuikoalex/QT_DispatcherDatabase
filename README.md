@@ -22,13 +22,13 @@
 ### Интерфейс программы:
 >
 > > *основное поле ввода новых данных -*
-![interface](ui_img/1.jpg)
+![interface](ui_img/1.JPG)
 >
 > > *работа с отчетами -*
-![interface](ui_img/2.jpg)
+![interface](ui_img/2.JPG)
 > 
 > > *настройки программы -*
-![interface](ui_img/3.jpg)
+![interface](ui_img/3.JPG)
 
 ### Файлы программы:
 ```
